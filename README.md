@@ -1,4 +1,4 @@
-# my-resume
+# Generate your Resume throguh a Json with several theme upfront.
 - Clone Repository
 - Install Docker 
 - RUN command `docker-compose up -d`
