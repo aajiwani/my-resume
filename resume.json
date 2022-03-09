@@ -1,79 +1,73 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Amir Ali Jiwani",
-    "label": "Software Craftsman",
-    "picture": "https://en.gravatar.com/userimage/16232986/5cc37ef158c48a160aa2df2813e40336.jpg?size=400",
-    "email": "amirali.jiwani89@gmail.com",
-    "phone": "(0092) 345-2446686",
-    "website": "https://www.linkedin.com/in/amiralijiwani/",
-    "summary": "A software enthusiast.\n\nI have been working as a developer for around a decade. During this time, I have got a chance to visit various domains and technologies -- Which helped in shaping my self on how I think and work now.\n\nI like to create software and helping other developers like me around. Recently have gained interest in making more layman talks than the development intensive, as I believe everyone attached to a concept should have a right to understand it in complete and concise way.\n\nSome recent technologies I have been working are NodeJS, React, Docker, Kubernetes, Electron and other of such kind. My main focus is towards the problem solving, irrespective of the platform.",
+    "name": "Shoaib Ahmed Khan",
+    "label": "Software Architect",
+    "picture": "https://secure.gravatar.com/avatar/a54d183a144cc0dbe482279055424b5bjpg?size=400",
+    "email": "shoaibkhan105@outlook.com",
+    "phone": "(0092) 345-2767640",
+    "website": "https://www.linkedin.com/in/khanjeee/",
+    "summary": "A software enthusiast. I have been working as a developer for around a decade. During \nthis time, I have got a chance to visit various domains and technologies, which helped in\nshaping myself on how I think and work now. I like to create software and helping other\ndevelopers like me around. Some recent technologies I have been working are PHP,\nNodeJs, Docker, Java and other of such kind. My main focus is towards the problem\nsolving, irrespective of the platform",
     "location": {
-      "address": "A1-17-03, Vista Komanwel A, Jalan Jalil Perkasa 19",
-      "postalCode": "57000",
-      "city": "Bukit Jalil",
-      "countryCode": "MY",
-      "region": "Kuala Lumpur"
+      "address": "B-37 Block 7, Gulistan-e-Jauhar",
+      "postalCode": "73500",
+      "city": "Karachi",
+      "countryCode": "PK",
+      "region": ""
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "amiralijiwani",
-        "url": "https://www.linkedin.com/in/amiralijiwani/"
+        "username": "khanjeee",
+        "url": "https://www.linkedin.com/in/khanjeee/"
+      },
+      {
+        "network": "Twitter",
+        "username": "ShoaibKaan",
+        "url": "https://twitter.com/ShoaibKaan"
       },
       {
         "network": "Github",
-        "username": "aajiwani",
-        "url": "https://github.com/aajiwani"
+        "username": "khanjeee",
+        "url": "https://github.com/khanjeee"
       }
     ]
   },
   "work": [
     {
-      "name": "SEEK",
-      "company": "SEEK",
-      "location": "Kuala Lumpur, Malaysia",
+      "name": "PureVPN",
+      "company": "Gaditek",
+      "location": "Karachi, Pakistan",
       "description": "Solving the problem of connecting the right candidate to the needful hirers",
-      "position": "Software Engineering Manager",
-      "url": "https://www.seek.com.au/",
-      "startDate": "2020-02-01",
-      "endDate": "2021-03-31",
-      "summary": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
-      "highlights": [
-        "Contributed to SEEKs overall product & technology strategy and aligning systems with that strategy.",
-        "Ensured that systems are fit for purpose, well architected and follow current SEEK development practices.",
+      "position": "Associate Software Architect",
+      "url": "https://www.gaditek.com/",
+      "startDate": "2020-12-31",
+      "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
+      "highlights": [	
+        "Contributed to PureVpn's overall product & technology strategy and aligning systems with that strategy.",
+        "Ensured that systems are fit for purpose, well architected and follow current PureVpn's development practices.",
         "Maintained platform health, by ensuring that our systems are secure, reliable, resilient and cost effective.",
         "Drove customer focus to ensure that we are delivering great outcomes for our customers.",
         "Commenced and maintained a high performing team culture that values collaboration, learning and continual improvement.",
-        "Acted as an enabler; Growing the technical skills and leadership capabilities of my team through coaching and mentoring. This involves having 1:1s with my team mates.",
-        "Lead by example; Which required me to get my hands dirty when the need is there.",
-        "Unblocked the team with what ever it took, having the complete ownership in the matters of maintaining healthy teams.",
-        "Celebrated successes and learnt from the failures; And propogated the culture through the teams and examplified it for the rest of the organization.",
-        "Paired with the Pricipal Engineer of the team, to understand the climate and the problems of the team.",
-        "Participated in and retroed the core hiring process through centralized hiring squad in the organization.",
-        "Helped the org, to move fast to the eco system of global products; Away from the local products which we were dealing with since past 25+ years"
+        "Participated in planning and evaluation meetings to identify problems and propose business solutions."
       ]
     },
     {
-      "name": "SEEK",
-      "company": "SEEK",
-      "location": "Kuala Lumpur, Malaysia",
+      "name": "PureVPN",
+      "company": "Gaditek",
+      "position": "Lead Software Engineer",
+      "startDate": "2019-01-31",
+      "endDate": "2020-12-31",
+      "location": "Karachi, Pakistan",
       "description": "Solving the problem of connecting the right candidate to the needful hirers",
-      "position": "Lead Software Architect",
-      "url": "https://www.seek.com.au/",
-      "startDate": "2018-05-01",
-      "endDate": "2020-01-01",
-      "summary": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
+      "url": "https://www.gaditek.com/",
+      "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
       "highlights": [
-        "Been the catalyst for transforming the organization.",
-        "Performed the duties as the JavaScript coach for the organization.",
-        "Advocated for, and implemented software best practices.",
-        "Been the communicator for various teams to maintain their health; Some times preached the organization values.",
-        "Participated as a core in hiring new and experienced talents.",
-        "Propagated automation as a culture rather an option.",
-        "Moved legacy code and data to cloud via lift & shift, green field and brown field methodologies.",
-        "Performed the duties of deciding and validating sensible defaults for the organization.",
-        "Pushed cloud first approach in the org, living in an environment of Infra ops."
+        "Performed the duties as the Lead Software Engineer for the PureVpn's Backend Team.", 
+        "Participated in processes concerning the architecture to meet inter departmental needs.",
+        "Facilitate product development and fulfillment by adopting ‘Scrum’ Agile development methodology.",
+        "Implemented Micro service architecture between API’s to make the product ready for providing PaaS (Platform as a Service) services", 
+        "capable of serving millions of customers .\n Automate processes and problem resolution to enhance productivity of existing systems."
       ]
     },
     {
