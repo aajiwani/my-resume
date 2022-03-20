@@ -38,152 +38,207 @@
       "name": "PureVPN",
       "company": "Gaditek",
       "location": "Karachi, Pakistan",
-      "description": "Solving the problem of connecting the right candidate to the needful hirers",
+      "description": "Contributed to PureVpn's overall product & technology strategy and aligning systems with that strategy.",
       "position": "Associate Software Architect",
       "url": "https://www.gaditek.com/",
       "startDate": "2020-12-31",
       "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
       "highlights": [	
-        "Contributed to PureVpn's overall product & technology strategy and aligning systems with that strategy.",
+        "Took the initiative, did POC and migrated Microservices behind AWS (API Gateway) which helped developers to create, publish, maintain, monitor, and secure APIs at any scale",
         "Ensured that systems are fit for purpose, well architected and follow current PureVpn's development practices.",
         "Maintained platform health, by ensuring that our systems are secure, reliable, resilient and cost effective.",
-        "Drove customer focus to ensure that we are delivering great outcomes for our customers.",
-        "Commenced and maintained a high performing team culture that values collaboration, learning and continual improvement.",
-        "Participated in planning and evaluation meetings to identify problems and propose business solutions."
+        "Commenced technical mentorship and support for helping level-up the skills of colleagues on the team and their continual improvement.",
+        "Participated in planning and evaluation meetings to identify problems and propose business solutions.",
+        "Participated in Code Reviews, Documentation and maintained a good team culture",
+        "Facilitated product development and fulfillment to adopt `Scrum` Agile development",
+        "Fcilitated Devops Team to integrated CI/CD pipeline to automates software delivery process",
+        "Developed Notification Centre to help Product send notifications with Ease, Increasing profits and Customer Activation. "
       ]
     },
     {
       "name": "PureVPN",
       "company": "Gaditek",
       "location": "Karachi, Pakistan",
-      "description": "Solving the problem of connecting the right candidate to the needful hirers",
+      "description": "",
       "position": "Lead Software Engineer",
       "url": "https://www.gaditek.com/",
       "startDate": "2019-01-31",
       "endDate": "2020-12-31",
       "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
       "highlights": [
-        "Performed the duties as the Lead Software Engineer for the PureVpn's Backend Team.", 
         "Participated in processes concerning the architecture to meet inter departmental needs.",
         "Facilitate product development and fulfillment by adopting ‘Scrum’ Agile development methodology.",
         "Implemented Micro service architecture between API’s to make the product ready for providing PaaS (Platform as a Service) services", 
-        "capable of serving millions of customers .\n Automate processes and problem resolution to enhance productivity of existing systems."
+        "Implemeted Google Cloud Firestore, to remove polling from our desktop applications which helped all the application receive notification via sockets in milliseconds.",
+        "Automate processes and problem resolution to enhance the productivity of existing systems.",
+        "Helped POC the product initially with our customers to set up our product owner for the success of the product."
+
       ]
+    },
+    {
+      "name": "PureVPN",
+      "company": "Gaditek",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://www.gaditek.com/",
+      "startDate": "2019-01-31",
+      "endDate": "2020-12-31",
+      "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
+      "highlights": [
+        "Responsible for the development and maintenance of the system's network services\n. This includes returning the fastest servers, protecting the network from being abused.",
+        "Develop Rest APIs to facilitate VPN servers to handle the network activity efficiently.",
+        "Develop Microservice Architecture to assist PureVPN in providing PaaS services to its Business customers.",
+        "Implemented Database optimization Techniques to enhane performance of the Application"
+      ]
+    },
+    {
+      "name": "Goodcore Software",
+      "company": "Goodcore Software",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://www.goodcore.co.uk",
+      "startDate": "2015-06-10",
+      "endDate": "2016-06-01",
+      "summary": "Analyzed code and engineer well-researched, cost-effective and responsive solutions.",
+      "highlights": [
+        "Review systems capabilities, workflow and limitations in order to design programs to improve performance.",
+        "Document work-time and processes as specified by management.",
+        "Mentored Junior resources, to level-up their skills.",
+        "Develop, Maintain and provide support for the comapnies on going projects."
+        ]
     },
     {
       "name": "Ephlux",
       "company": "Ephlux",
       "location": "Karachi, Pakistan",
       "description": "",
-      "position": "Senior Software Engineer (Full-Stack)",
-      "url": "https://www.exact.com/",
-      "startDate": "2016-10-01",
-      "endDate": "2018-01-01",
-      "summary": "Ephlux helps companies bridge the gap between their customer journeys and business processes using digital automation.",
-      "highlights": [
-        "Helped to come up with an end-to-end pipeline to build and release the product.",
-        "Performed various tasks including coding, building, testing, releasing and debugging the product.",
-        "Made massive use of automation, including development and in release cycles.",
-        "Helped to produce tools that are helpful during the lifecycle of the product. Usually as a need to support the product.",
-        "Helped POC the product initially with our customers to set up our product owner for the success of the product."
-      ]
-    },
-    {
-      "name": "Hexosys",
-      "company": "Hexosys",
-      "location": "Kuala Lumpur, Malaysia",
-      "description": "Albaloo is a fast growing location based advertising platform, consists of Mobile App, Web Portal, Social Media Fan Pages and 3rd Party Advertising Partners.",
       "position": "Senior Software Engineer",
-      "url": "https://www.hexosys.com/",
-      "startDate": "2015-11-01",
-      "endDate": "2016-10-01",
-      "summary": "Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.",
+      "url": "https://www.ephlux.com/",
+      "startDate": "2012-09-01",
+      "endDate": "2015-06-01",
+      "summary": "Helped the Company win Big by Research and Development.",
       "highlights": [
-        "Helped in complete overhaul and rewriting parts of the Albaloo product.",
-        "Added the ability of targetting users through multi communication channels (SMS, emails, mobile notifications etc).",
-        "Helped product with identifying with and implementing the ability of geo fencing the ads in the current platform.",
-        "Introduced a custom framework on top of Laravel's current implementation to support custom JavaScript loading in the layout.",
-        "Initialized and laid the basis for automation in the project; Through simplifying and making some tedious task, process oriented."
+        "Commenced development of modules on Java (AdobeCq5) which helped company win projects from the worlds biggest hotels chain (Caesars Palace)",
+        "Developed Numerous Rest Services using (Laravel,CakePHP and CodeIgniter), for applications from different domains including (Transportation,Social-Media,Food & Beverages etc.)",
+        "This is the place where I laid my hands on Adroid(Sdk) for the first time, developed a social media platform for IKEA(Saudia)", 
+        "Worked on Different Content Management Systems including (Drupal,Wordpress,ExpressionEngine,Moodle and Joomla) & and delivered projects successfully, producing happy cleints"
+        
       ]
     },
     {
-      "name": "Pi-Labs",
-      "company": "Pi-Labs",
+      "name": "Tradekey (Pvt) Ltd.",
+      "company": "Tradekey (Pvt) Ltd.",
       "location": "Karachi, Pakistan",
-      "description": "A service provider for various kinds of software needs to our clients.",
-      "position": "Chief Technology Officer",
-      "url": "http://pilabs.com/",
-      "startDate": "2010-06-01",
-      "endDate": "2014-02-01",
-      "summary": "Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have delivered an app to the Microsoft Marketplace, yet our expertise encompasses the breadth of the smartphone ecosystems including iOS, Android and Palm’s WebOS.",
+      "description": "",
+      "position": "Product Engineer",
+      "url": "https://www.tradekey.com",
+      "startDate": "2011-01-19",
+      "endDate": "2012-08-25",
+      "summary": "Learnt Software Development Practises and Implemented them for the good of the Product",
       "highlights": [
-        "This was my earliest position as a technical leader and I myself were going through a major learning.",
-        "Helped organization with various services based project; Dealth with various platforms and technologies.",
-        "Created, architected and maintained a home grown idea that later shifted to become Garfield's official game, known as Feed Garfield. The internal project name was Candy Pot. It was a team effort.",
-        "Created, architected and maintained an idea in collaboration with our partner. It was a video and audio processing app; These were early days when snapchat didn't existed; The project was named Gulf Talk.",
-        "Worked on an aggregator banking solution known as Mobank for UK based banks. Clients were able to control their various accounts through this app.",
-        "Pioneered the space of Windows 8 initial launching apps for Microsoft Singapore; Some of them were CNA, DBS Bank Singapore, The Straits Times Singapore",
-        "Worked on various 2d and 3d games.",
-        "Used and improved Cocos2dx platform to flourish 2d games on cross platform technologies.",
-        "Written several frameworks my self and opensourced it later to help the community; To mention some: EasyNDK-for-cocos2dx, Easy-CURL-for-PHP",
-        "Gelled along with various individual contributors to help organization meet its financial goal and beyond.",
-        "Presented learnings and findings at various university events and global technology events."
-      ]
+        "Product development & Maintenance using ( MVC )in PHP.",
+        "Email marketing using MySQL queries on (Interspire).",
+        "Writing Complex queries to generate reports from a database of 6 Million users, used for running marketing campaigns",
+        "Implemented query optimization Techniques to increase performance of the queries performed on huge datasets."
+        ]
+    },
+    {
+      "name": "Tradekey (Pvt) Ltd.",
+      "company": "Tradekey (Pvt) Ltd.",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Product Engineer",
+      "url": "https://www.tradekey.com",
+      "startDate": "2011-01-19",
+      "endDate": "2012-08-25",
+      "summary": "Learnt Software Development Practises and Implemented them for the good of the Product",
+      "highlights": [
+        "Product development & Maintenance using ( MVC )in PHP.",
+        "Email marketing using MySQL queries on (Interspire).",
+        "Writing Complex queries to generate reports from a database of 6 Million users, used for running marketing campaigns",
+        "Implemented query optimization Techniques to increase performance of the queries performed on huge datasets."
+        ]
     }
+   
+    
   ],
   "education": [
     {
-      "institution": "FAST - NUCES",
-      "name": "National University of Computer and Emerging Sciences",
-      "url": "http://khi.nu.edu.pk",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2006-06-01",
-      "endDate": "2010-07-01",
+      "institution": "Uok",
+      "name":"University of Karachi",
+      "area": "(B.S) Computer Science",
+      "url": "https://uok.edu.pk/",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2007-12-31",
+      "endDate": "2011-12-31",
+      
       "courses": [
         "Digital Logic Design",
         "Assembly Language",
         "Data Structures",
-        "Design Patterns",
         "Web Programming",
         "Compiler Construction",
-        "Concurrent and Distributed Systems",
-        "High Performance Computing",
-        "Database Design"
-      ]
+        "Distributed Systems",
+        "Database Design"]
     }
   ],
   "awards": [
     {
-      "title": "IASA IT Architecture Core (ITAC) – CITAF Certification",
-      "date": "2015-05-01",
-      "awarder": "Iasa Global",
-      "summary": "Anchors to the beginning of Architect position and responsibilities"
+      "title": "Certified ScrumMaster® (CSM®)",
+      "awarder": "Scrum Alliance",
+      "date": "2021-09-30",
+      "url": "https://bcert.me/syakycqcn",
+      "summary": " Helps gain a solid understanding of Scrum and learn practical ways to apply it on your team and throughout your organization."
     },
     {
-      "title": "Won the GIKI SOFTCOM 08 (Programming Competition)",
-      "date": "2008-04-01",
-      "awarder": "GIKI University Pakistan",
-      "summary": "A speed programming competition of national level"
+      "name": "Programming in HTML5 with JavaScript and CSS3",
+      "awarder": "Microsoft",
+      "date": "2013-01-31",
+      "summary": "Provides an accelerated introduction to help learn HTML5, JavaScript, CSS, and other basic programming skills"
     }
+   
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Expert",
+      "level": "Advanced",
       "keywords": [
-        "HTML",
-        "Javascript"
+        "PHP(Laravel),CodeIgniter",
+        "MySql",
+        "HTML/Css",
+        "Javascript",
+        "AdobeCq5",
+        "Google Cloud Firestore",
+        "NewRelic",
+        "Git"
       ]
     },
     {
-      "name": "Software Architecture",
+      "name": "Micro Service Architecture",
       "level": "Advanced",
       "keywords": [
-        "Design-patterns",
-        "Distributed systems",
-        "Scalability",
-        "Maintainability"
+        "Aws WebService(API Gateway,Cognito,Ec2,RDS,Cloudfront,S3,Lambda)",
+        "Lumen",
+        "RESTful API",
+        "Firewall (CloudFlare)",
+        "Elastic Load Balancers"
+      
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Android SDK (Java)"
+      ]
+    },
+    {
+      "name": "Agile Development",
+      "level": "Advanced",
+      "keywords": [
+        ""
       ]
     },
     {
@@ -211,29 +266,11 @@
   ],
   "interests": [
     {
-      "name": "Home improvements & engineering",
+      "name": "Sports",
       "keywords": [
-        "Plumbing",
-        "Electric-appliances",
-        "Civil engineering"
-      ]
-    },
-    {
-      "name": "Software based home solutions",
-      "keywords": [
-        "IoT",
-        "Home-server",
-        "plex",
-        "raspberry-pi"
-      ]
-    },
-    {
-      "name": "Watching documentaries",
-      "keywords": [
-        "Idiocracy",
-        "Lord-of-the-rings",
-        "movies",
-        "documentaries"
+        "Cricket",
+        "Snooker",
+        "Swimming"
       ]
     }
   ],
