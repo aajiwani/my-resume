@@ -55,12 +55,12 @@
     {
       "name": "PureVPN",
       "company": "Gaditek",
-      "position": "Lead Software Engineer",
-      "startDate": "2019-01-31",
-      "endDate": "2020-12-31",
       "location": "Karachi, Pakistan",
       "description": "Solving the problem of connecting the right candidate to the needful hirers",
+      "position": "Lead Software Engineer",
       "url": "https://www.gaditek.com/",
+      "startDate": "2019-01-31",
+      "endDate": "2020-12-31",
       "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
       "highlights": [
         "Performed the duties as the Lead Software Engineer for the PureVpn's Backend Team.", 
@@ -71,15 +71,15 @@
       ]
     },
     {
-      "name": "Exact",
-      "company": "Exact",
-      "location": "Kuala Lumpur, Malaysia",
-      "description": "Cloud business software for SMEs and their accountants",
+      "name": "Ephlux",
+      "company": "Ephlux",
+      "location": "Karachi, Pakistan",
+      "description": "",
       "position": "Senior Software Engineer (Full-Stack)",
       "url": "https://www.exact.com/",
       "startDate": "2016-10-01",
       "endDate": "2018-01-01",
-      "summary": "We are Exact. We make smart business software. We are entrepreneurial and dream big, just like you. We help and encourage anyone we work with to always be the best version of themselves.",
+      "summary": "Ephlux helps companies bridge the gap between their customer journeys and business processes using digital automation.",
       "highlights": [
         "Helped to come up with an end-to-end pipeline to build and release the product.",
         "Performed various tasks including coding, building, testing, releasing and debugging the product.",
