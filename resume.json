@@ -1,0 +1,317 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Shoaib Ahmed Khan",
+    "label": "Software Architect",
+    "picture": "https://secure.gravatar.com/avatar/a54d183a144cc0dbe482279055424b5bjpg?size=400",
+    "email": "shoaibkhan105@outlook.com",
+    "phone": "(0092) 345-2767640",
+    "website": "https://www.linkedin.com/in/khanjeee/",
+    "summary": "A software enthusiast. I have been working as a developer for around a decade. During \nthis time, I have got a chance to visit various domains and technologies, which helped in\nshaping myself on how I think and work now. I like to create software and helping other\ndevelopers like me around. Some recent technologies I have been working are PHP,\nNodeJs, Docker, Java and other of such kind. My main focus is towards the problem\nsolving, irrespective of the platform",
+    "location": {
+      "address": "B-37 Block 7, Gulistan-e-Jauhar",
+      "postalCode": "73500",
+      "city": "Karachi",
+      "countryCode": "PK",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "khanjeee",
+        "url": "https://www.linkedin.com/in/khanjeee/"
+      },
+      {
+        "network": "Twitter",
+        "username": "ShoaibKaan",
+        "url": "https://twitter.com/ShoaibKaan"
+      },
+      {
+        "network": "Github",
+        "username": "khanjeee",
+        "url": "https://github.com/khanjeee"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "PureVPN",
+      "company": "Gaditek",
+      "location": "Karachi, Pakistan",
+      "description": "Contributed to PureVpn's overall product & technology strategy and aligning systems with that strategy.",
+      "position": "Associate Software Architect",
+      "url": "https://www.gaditek.com/",
+      "startDate": "2020-12-31",
+      "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
+      "highlights": [	
+        "Took the initiative, did POC and migrated Microservices behind AWS (API Gateway) which helped developers to create, publish, maintain, monitor, and secure APIs at any scale",
+        "Ensured that systems are fit for purpose, well architected and follow current PureVpn's development practices.",
+        "Maintained platform health, by ensuring that our systems are secure, reliable, resilient and cost effective.",
+        "Commenced technical mentorship and support for helping level-up the skills of colleagues on the team and their continual improvement.",
+        "Participated in planning and evaluation meetings to identify problems and propose business solutions.",
+        "Participated in Code Reviews, Documentation and maintained a good team culture",
+        "Facilitated product development and fulfillment to adopt `Scrum` Agile development",
+        "Fcilitated Devops Team to integrated CI/CD pipeline to automates software delivery process",
+        "Developed Notification Centre to help Product send notifications with Ease, Increasing profits and Customer Activation. "
+      ]
+    },
+    {
+      "name": "PureVPN",
+      "company": "Gaditek",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Lead Software Engineer",
+      "url": "https://www.gaditek.com/",
+      "startDate": "2019-01-31",
+      "endDate": "2020-12-31",
+      "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
+      "highlights": [
+        "Participated in processes concerning the architecture to meet inter departmental needs.",
+        "Facilitate product development and fulfillment by adopting ‘Scrum’ Agile development methodology.",
+        "Implemented Micro service architecture between API’s to make the product ready for providing PaaS (Platform as a Service) services", 
+        "Implemeted Google Cloud Firestore, to remove polling from our desktop applications which helped all the application receive notification via sockets in milliseconds.",
+        "Automate processes and problem resolution to enhance the productivity of existing systems.",
+        "Helped POC the product initially with our customers to set up our product owner for the success of the product."
+
+      ]
+    },
+    {
+      "name": "PureVPN",
+      "company": "Gaditek",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://www.gaditek.com/",
+      "startDate": "2019-01-31",
+      "endDate": "2020-12-31",
+      "summary": "Gaditek is a human-centric New Age company. We innovate relentlessly and are always venturing into new markets with our employees.",
+      "highlights": [
+        "Responsible for the development and maintenance of the system's network services\n. This includes returning the fastest servers, protecting the network from being abused.",
+        "Develop Rest APIs to facilitate VPN servers to handle the network activity efficiently.",
+        "Develop Microservice Architecture to assist PureVPN in providing PaaS services to its Business customers.",
+        "Implemented Database optimization Techniques to enhane performance of the Application"
+      ]
+    },
+    {
+      "name": "Goodcore Software",
+      "company": "Goodcore Software",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://www.goodcore.co.uk",
+      "startDate": "2015-06-10",
+      "endDate": "2016-06-01",
+      "summary": "Analyzed code and engineer well-researched, cost-effective and responsive solutions.",
+      "highlights": [
+        "Review systems capabilities, workflow and limitations in order to design programs to improve performance.",
+        "Document work-time and processes as specified by management.",
+        "Mentored Junior resources, to level-up their skills.",
+        "Develop, Maintain and provide support for the comapnies on going projects."
+        ]
+    },
+    {
+      "name": "Ephlux",
+      "company": "Ephlux",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://www.ephlux.com/",
+      "startDate": "2012-09-01",
+      "endDate": "2015-06-01",
+      "summary": "Helped the Company win Big by Research and Development.",
+      "highlights": [
+        "Commenced development of modules on Java (AdobeCq5) which helped company win projects from the worlds biggest hotels chain (Caesars Palace)",
+        "Developed Numerous Rest Services using (Laravel,CakePHP and CodeIgniter), for applications from different domains including (Transportation,Social-Media,Food & Beverages etc.)",
+        "This is the place where I laid my hands on Adroid(Sdk) for the first time, developed a social media platform for IKEA(Saudia)", 
+        "Worked on Different Content Management Systems including (Drupal,Wordpress,ExpressionEngine,Moodle and Joomla) & and delivered projects successfully, producing happy cleints"
+        
+      ]
+    },
+    {
+      "name": "Tradekey (Pvt) Ltd.",
+      "company": "Tradekey (Pvt) Ltd.",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Product Engineer",
+      "url": "https://www.tradekey.com",
+      "startDate": "2011-01-19",
+      "endDate": "2012-08-25",
+      "summary": "Learnt Software Development Practises and Implemented them for the good of the Product",
+      "highlights": [
+        "Product development & Maintenance using ( MVC )in PHP.",
+        "Email marketing using MySQL queries on (Interspire).",
+        "Writing Complex queries to generate reports from a database of 6 Million users, used for running marketing campaigns",
+        "Implemented query optimization Techniques to increase performance of the queries performed on huge datasets."
+        ]
+    },
+    {
+      "name": "Tradekey (Pvt) Ltd.",
+      "company": "Tradekey (Pvt) Ltd.",
+      "location": "Karachi, Pakistan",
+      "description": "",
+      "position": "Product Engineer",
+      "url": "https://www.tradekey.com",
+      "startDate": "2011-01-19",
+      "endDate": "2012-08-25",
+      "summary": "Learnt Software Development Practises and Implemented them for the good of the Product",
+      "highlights": [
+        "Product development & Maintenance using ( MVC )in PHP.",
+        "Email marketing using MySQL queries on (Interspire).",
+        "Writing Complex queries to generate reports from a database of 6 Million users, used for running marketing campaigns",
+        "Implemented query optimization Techniques to increase performance of the queries performed on huge datasets."
+        ]
+    }
+   
+    
+  ],
+  "education": [
+    {
+      "institution": "Uok",
+      "name":"University of Karachi",
+      "area": "(B.S) Computer Science",
+      "url": "https://uok.edu.pk/",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2007-12-31",
+      "endDate": "2011-12-31",
+      
+      "courses": [
+        "Digital Logic Design",
+        "Assembly Language",
+        "Data Structures",
+        "Web Programming",
+        "Compiler Construction",
+        "Distributed Systems",
+        "Database Design"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certified ScrumMaster® (CSM®)",
+      "awarder": "Scrum Alliance",
+      "date": "2021-09-30",
+      "url": "https://bcert.me/syakycqcn",
+      "summary": " Helps gain a solid understanding of Scrum and learn practical ways to apply it on your team and throughout your organization."
+    },
+    {
+      "title": "Programming in HTML5 with JavaScript and CSS3",
+      "awarder": "Microsoft",
+      "date": "2013-01-31",
+      "summary": "Provides an accelerated introduction to help learn HTML5, JavaScript, CSS, and other basic programming skills"
+    }
+   
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "PHP(Laravel),CodeIgniter",
+        "MySql",
+        "HTML/Css",
+        "Javascript",
+        "AdobeCq5",
+        "Google Cloud Firestore",
+        "NewRelic",
+        "Git"
+      ]
+    },
+    {
+      "name": "Micro Service Architecture",
+      "level": "Advanced",
+      "keywords": [
+        "Aws WebService(API Gateway,Cognito,Ec2,RDS,Cloudfront,S3,Lambda)",
+        "Lumen",
+        "RESTful API",
+        "Firewall (CloudFlare)",
+        "Elastic Load Balancers"
+      
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Android SDK (Java)"
+      ]
+    },
+    {
+      "name": "Agile Development",
+      "level": "Advanced",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Advanced",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "level": "Advanced",
+      "keywords": [
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Urdu",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Cricket",
+        "Snooker",
+        "Swimming"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Heinrich Rust",
+      "reference": "Amir is surely missed by his team/peers and I think any company would find great benefit with the addition of Amir to their leadership and technical team. Wish you all the best Amir and hope our paths cross again."
+    },
+    {
+      "name": "Paul Fitzgerald",
+      "reference": "As a colleague Amir is friendly, personable, has an easy manner and great sense of humour. A clear communicator with a voice for radio, Amir is wise head on young shoulders."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
