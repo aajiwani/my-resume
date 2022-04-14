@@ -1,284 +1,297 @@
 <html><head>
-	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
-	<title>Amir Ali Jiwani - CV</title>
+	<title>Amir Ali Jiwani</title>
 
 	<style>
-	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
-
-/* General, overall styling */
-body {
-	background: #F9F9F9;
-	font-size: 0.9em;
-	font-family: 'Lato', sans-serif;
+	body {
+	background: #fff;
+	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	margin: 0 0;
 	margin-bottom: 100px;
 }
-
 em {
 	color: #999;
 }
-
 p {
-	line-height: 1.4;
+	line-height: 1.6;
+	font-size: 90%;
 }
 
 a {
-	color: #31A6D6;
+	color: #2C85B1;
+	text-decoration: none;
+	font-weight: 400;
 }
-
-a:visited {
-	color: #3061A5;
-}
-
-a:hover {
-	color: #3061A5;
-}
-
 ul {
 	margin-bottom: 0;
 }
 section {
-	margin-bottom: 2em;
+	margin: 1em 0 2em;
 }
-
 blockquote {
 	margin: 0;
 	margin-bottom: 1em;
 }
-
-/* End general, overall styling */
-
-/* Header name styling */
-
-header {
-	background: #68B6E3;
-	padding: 50px;
-	margin-bottom: 50px;
+#resume {
+	margin: 2em 2em 2em 2.5em;
+	max-width: 760px;
 }
 
-header h1 {
-	color: #FFFFFF;
-	max-width: 700px;
-	margin: 0 auto;
+/* Resume heading */
+.heading header { 
+
 }
 
-header h2 {
-	color: #F3F3F3;
-	font-size: 1em;
-	max-width: 700px;
-	margin: 0 auto;
+.heading header h1 {
+	font-size: 180%;
+	margin: 0.5em 0;
+	font-weight: 600;
 }
 
-/* End header name styling */
-
-/* Set width of main body of CV */
-.container {
-	max-width: 700px;
-	padding: 0 50px;
-	margin: 0 auto;
+.heading header h2 {
+	font-size: 140%;
+	margin: 0;
+	font-weight: 400;
 }
 
-/* End */
-
-/* Styling Basics (Name, Contact, About, Profiles) */
-
-#basics {
-	margin-bottom: 10px;
-	border-top: 1px #E2E2E2 solid;
-	border-bottom: 1px #E2E2E2 solid;
-}
-#basics h3 {
-	margin-top: 1.5em;
-	margin-bottom: 10px;
-}
-#basics .contact strong {
-	line-height: 1.3;
-	float: left;
-	width: 80px;
+.heading header .contact .detail {
+	margin: 0 1em 0 0;
 }
 
-.contact h3 {
-	padding-bottom: 10px;
+.profile {
+	display: inline-block;
+	margin: 0 1em 0 0;
 }
 
-.website,
-.email,
-.phone {
-	margin-bottom: 10px;
-	float: left;
-	width: 50%;
+.profile strong,
+.profile span {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+/* section / line breaks */
+section h2 {
+	font-size: 140%;
+	margin: 0 0 1em;
+	text-transform: uppercase;
+	color: #BC1B39;
+	font-weight: 400;
 }
 
-.summary {
-	padding-top: 5px;
-	clear: both;
+/* Experience items */
+.item {
+	margin: 0 0 1em;
+	padding: 0 0 1em;
+	border-bottom: 1px solid #F2EBEC;
 }
 
-#profiles {
-	overflow: hidden;
+.item:last-child {
+	border-bottom: none;
 }
 
-#profiles .item {
-	float: left;
-	width: 50%;
+
+.item header h3 {
+	margin: 0.2em 1em 0.2em 0;
+	display: inline-block;
+	font-weight: 600;
 }
 
-.username{
-	margin-top: 10px;
+.item header a {
+	display: inline-block;
 }
 
-/* End 'Basics' Styling */
-
-/* Work and volunteering experience styling */
-
-.work_date,
-.work_position,
-.work_website,
-.institution,
-.study_date,
-.qualification {
-	margin-bottom: 10px;
-	float: left;
-	width: 30%;
+.item .position {
+	font-weight: 600;
+	font-size: 100%;
+	margin: 0.2em 1em 0.2em 0;
 }
 
-.courses {
-	clear: both;
+.item .startDate,
+.item .endDate {
+	color: #6B6B6B;
 }
 
-.dissertation {
-	margin-top: 10px;
+.item .highlights {
+	list-style: square;
+	font-size: 90%;
 }
 
-#work,
-#volunteer {
-	padding-bottom: 5px;
-	border-bottom: 1px #E2E2E2 solid;
-}
-
-#work .item,
-#volunteer .item {
-	margin: 25px 0;
-}
-
-/* End work and volunteering */
-
-/* Skills, languages, interests and references styling */
-
-#skills {
-	margin-bottom: 10px;
-	border-bottom: 1px #E2E2E2 solid;
-	padding-bottom: 5px;
-}
-
-#skills .item,
-#languages .item {
-	margin: 0 0 25px 0;
-}
-
-#interests .item {
-	margin-bottom: 25px;
-}
-
-#skills {
-	overflow: hidden;
-}
-
-#languages .item,
-#interests .item,
+/* skills */
 #skills .item {
-	float: left;
-	width: 50%;
+	margin: 0.5em 0;
+	padding: 0 0 0.5em;
+	font-size: 90%;
 }
 
-#references,
-#interests {
-	clear: both;
+#skills .item .name {
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 1em 0 0;
+	width: 23%;
+	vertical-align: top;
 }
 
-/* End styling */
+#skills .item .keywords {
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+/* education */
+#education .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	border-bottom: 0;
+}
+
+
 
 	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
+
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300" rel="stylesheet" type="text/css">
 	
 	<link rel="stylesheet" href="./sticky_bar/styles.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
-	<body><div class="icon-bar"><a href="./class.pdf" class="youtube" id="resume_download_btn"><i class="fa fa-download"></i></a></div>
+	<body><div class="icon-bar"><a href="./short.pdf" class="youtube" id="resume_download_btn"><i class="fa fa-download"></i></a></div>
 	
-	<header>
-	<h1>Amir Ali Jiwani</h1>
-	<h2>Software Craftsman</h2>
-	</header>
+	<div id="resume">
 
-	<div id="content" class="container">
-	<section id="basics">
-		<div class="contact">
-		<h3>Contact</h3>
-		<div class="website">
-			<strong>Website</strong>
-			https://www.linkedin.com/in/amiralijiwani/
-		</div>
-		<div class="email">
-			<strong>Email</strong>
-			amirali.jiwani89@gmail.com
-		</div>
-		<div class="phone">
-			<strong>Phone</strong>
-			(0066) 922381171
-		</div>
-		</div>
-		<div class="summary">
-			<h3>About</h3>
-			<p>A software enthusiast.&lt;br /&gt;&lt;br /&gt;I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.&lt;br /&gt;&lt;br /&gt;I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.&lt;br /&gt;&lt;br /&gt;Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.</p>
-		</div>
-		<section id="profiles">
-			<div class="item">
+	<section class="heading">
+		<header>
+			<h1>Amir Ali Jiwani</h1>
+			<div class="contact">
+				<span class="detail">
+					<a href="mailto:amirali.jiwani89@gmail.com">amirali.jiwani89@gmail.com</a>
+				</span>
+				<span class="detail">
+					(0066) 922381171
+				</span>
+				<span class="detail">
+					<a href="https://www.linkedin.com/in/amiralijiwani/">https://www.linkedin.com/in/amiralijiwani/</a>
+				</span>
+			</div>
+		</header>
+
+
+		<p></p><p>A software enthusiast.<br><br>I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.<br><br>I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.<br><br>Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.</p><p></p>
+
+			<div class="profile">
 				<strong class="network">
 					LinkedIn
 				</strong>
-				<div class="url">
-					<a href="https://www.linkedin.com/in/amiralijiwani/">
-						amiralijiwani
-					</a>
-				</div>
+				<span class="username">
+					<a href="https://www.linkedin.com/in/amiralijiwani/">amiralijiwani</a>
+				</span>
 			</div>
-			<div class="item">
+			<div class="profile">
 				<strong class="network">
 					Github
 				</strong>
-				<div class="url">
-					<a href="https://github.com/aajiwani">
-						aajiwani
-					</a>
-				</div>
+				<span class="username">
+					<a href="https://github.com/aajiwani">aajiwani</a>
+				</span>
 			</div>
-		</section>
+
 	</section>
 
-	<section id="work">
-		<h2>Work</h2>
+	<section id="skills">
+		<h2>Skills</h2>
 		<div class="item">
-			<h3 class="work_name">
-				Agoda
-			</h3>
-			
-			<div class="work_position">
+			<div class="name">
+				Web Development
+			</div>
+			<div class="keywords">
+					HTML,
+					Javascript
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Software Architecture
+			</div>
+			<div class="keywords">
+					Design-patterns,
+					Distributed systems,
+					Scalability,
+					Maintainability
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Software Development
+			</div>
+			<div class="keywords">
+					Sustainability,
+					Portability,
+					Scalability,
+					Reasonability
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Problem Solving
+			</div>
+			<div class="keywords">
+					CompetitiveProgramming,
+					Abstract
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Draft documentation
+			</div>
+			<div class="keywords">
+					docsify,
+					Github,
+					MARP,
+					Joplin,
+					MermaidJS,
+					FormsIO
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Communication
+			</div>
+			<div class="keywords">
+					face-2-face,
+					emails,
+					presentations,
+					conference,
+					buy-in talks,
+					negotiations,
+					layman conversions,
+					1:1s
+			</div>
+		</div>
+	</section>
+
+	<section class="experience">
+		<h2>Experience</h2>
+		<section class="item">
+			<header>
+					<h3 class="name">Agoda</h3>
+			</header>
+			<span class="position">
 				Software Engineering Manager
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2022-03-14
-				</span>
-				<span class="endDate">
-					- Present
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				Mar 2022
+			</span>
+			<span class="endDate">
+				- Present
+			</span>
 
 			<div class="summary">
-				<p>Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive</p>
+				<p></p><p>Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>Working with teams to migrate long-running legacy systems to a newer and a better stack</li>
@@ -289,29 +302,24 @@ header h2 {
 				<li>Help the team understand Agility at work and take them through ceremonies; This helps the team give their best following sprints</li>
 				<li>Making an effort around organizational values, so it lives within the team and work we do.</li>
 			</ul>
-		</div>
-		<div class="item">
-			<h3 class="work_name">
-				Gaditek
-			</h3>
-			
-			<div class="work_position">
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Gaditek</h3>
+			</header>
+			<span class="position">
 				Software Engineering Manager
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2021-03-29
-				</span>
-				<span class="endDate">
-					- 2022-03-02
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				Mar 2021
+			</span>
+			<span class="endDate">
+				- Mar 2022
+			</span>
 
 			<div class="summary">
-				<p>Provided leadership across the engineering organization for the aspects of hiring, processes, architecture, grooming individuals and solving complex problems</p>
+				<p></p><p>Provided leadership across the engineering organization for the aspects of hiring, processes, architecture, grooming individuals and solving complex problems</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>Introduced a hiring process and its custodianship (aka The Hiring Squad!)</li>
@@ -329,29 +337,24 @@ header h2 {
 				<li>Focus on quality deliverables -- Provided guidance to bring in an appropriate SDLC</li>
 				<li>I got involved and got my hands dirty with architecture decisions at various organizational levels</li>
 			</ul>
-		</div>
-		<div class="item">
-			<h3 class="work_name">
-				SEEK
-			</h3>
-			
-			<div class="work_position">
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">SEEK</h3>
+			</header>
+			<span class="position">
 				Software Engineering Manager
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2020-02-01
-				</span>
-				<span class="endDate">
-					- 2021-03-31
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				Feb 2020
+			</span>
+			<span class="endDate">
+				- Mar 2021
+			</span>
 
 			<div class="summary">
-				<p>SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p>
+				<p></p><p>SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>Contributed to SEEKs overall product &amp; technology strategy and aligned systems with that strategy</li>
@@ -367,29 +370,24 @@ header h2 {
 				<li>Participated in and retro-ed the core hiring process through a centralized hiring squad</li>
 				<li>Helped the org to move fast to the ecosystem of global products; Away from the local products which we have been dealing with for the past 25+ years</li>
 			</ul>
-		</div>
-		<div class="item">
-			<h3 class="work_name">
-				SEEK
-			</h3>
-			
-			<div class="work_position">
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">SEEK</h3>
+			</header>
+			<span class="position">
 				Lead Software Architect
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2018-05-01
-				</span>
-				<span class="endDate">
-					- 2020-01-01
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				May 2018
+			</span>
+			<span class="endDate">
+				- Jan 2020
+			</span>
 
 			<div class="summary">
-				<p>SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p>
+				<p></p><p>SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>Been the catalyst for transforming the organization</li>
@@ -404,29 +402,24 @@ header h2 {
 				<li>With the help of fellow architects, I invested time in a flourishing framework of single identity throughout SEEK systems; We did this through educating, enabling, and supporting the needful tools for the teams</li>
 				<li>Created several SDKs for a single identity solution within Seek with complete automation and tests. Later helped teams adopt them into various systems</li>
 			</ul>
-		</div>
-		<div class="item">
-			<h3 class="work_name">
-				Exact
-			</h3>
-			
-			<div class="work_position">
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Exact</h3>
+			</header>
+			<span class="position">
 				Senior Software Engineer (Full-Stack)
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2016-10-01
-				</span>
-				<span class="endDate">
-					- 2018-01-01
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				Oct 2016
+			</span>
+			<span class="endDate">
+				- Jan 2018
+			</span>
 
 			<div class="summary">
-				<p>We are Exact. We make smart business software. We are entrepreneurial and dream big, just like you. We help and encourage anyone we work with to always be the best version of themselves.</p>
+				<p></p><p>We are Exact. We make smart business software. We are entrepreneurial and dream big, just like you. We help and encourage anyone we work with to always be the best version of themselves.</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>Helped to come up with an end-to-end pipeline to build and release the product</li>
@@ -438,29 +431,24 @@ header h2 {
 				<li>Created and open-sourced a library that behaves as a HOC for navigation matters around React space</li>
 				<li>Created an in-house tool (based on ElectronJS) for various development teams that helps with the consumption of APIs without open API specs (legacy systems)</li>
 			</ul>
-		</div>
-		<div class="item">
-			<h3 class="work_name">
-				Hexosys
-			</h3>
-			
-			<div class="work_position">
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Hexosys</h3>
+			</header>
+			<span class="position">
 				Senior Software Engineer
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2015-11-01
-				</span>
-				<span class="endDate">
-					- 2016-10-01
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				Nov 2015
+			</span>
+			<span class="endDate">
+				- Oct 2016
+			</span>
 
 			<div class="summary">
-				<p>Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p>
+				<p></p><p>Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>Helped in a complete overhaul and rewriting of parts of the Albaloo product</li>
@@ -471,29 +459,24 @@ header h2 {
 				<li>Helped teams with mocks to let them produce their artefacts accordingly. Later replaced with the accurate data bounded by the contracts</li>
 				<li>Helped in versioning the APIs so that various teams in the organization consume their needed bits and are working harmoniously</li>
 			</ul>
-		</div>
-		<div class="item">
-			<h3 class="work_name">
-				Experian
-			</h3>
-			
-			<div class="work_position">
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Experian</h3>
+			</header>
+			<span class="position">
 				Senior Software Developer
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2014-07-01
-				</span>
-				<span class="endDate">
-					- 2015-10-01
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				Jul 2014
+			</span>
+			<span class="endDate">
+				- Oct 2015
+			</span>
 
 			<div class="summary">
-				<p>Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p>
+				<p></p><p>Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>Assisted developers with a better approach to the problem at hand. I have to talk with my Team lead and the Architect to finalise a software architecture decision</li>
@@ -502,29 +485,24 @@ header h2 {
 				<li>Helped with adopting EHAB in various parts of our legacy application</li>
 				<li>Debugged and fixed various system parts containing loads of stored procedures and complex SQL queries</li>
 			</ul>
-		</div>
-		<div class="item">
-			<h3 class="work_name">
-				Pi-Labs
-			</h3>
-			
-			<div class="work_position">
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Pi-Labs</h3>
+			</header>
+			<span class="position">
 				Chief Technology Officer
-			</div>
+			</span>
 
-			<div class="work_date">
-				<span class="startDate">
-					2010-06-01
-				</span>
-				<span class="endDate">
-					- 2014-02-01
-				</span>
-			</div>
-
-
+			<span class="startDate">
+				Jun 2010
+			</span>
+			<span class="endDate">
+				- Feb 2014
+			</span>
 
 			<div class="summary">
-				<p>Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have produced an app for the Microsoft Marketplace. Yet, our expertise encompasses the breadth of the smartphone ecosystems, including iOS, Android and Palm’s WebOS.</p>
+				<p></p><p>Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have produced an app for the Microsoft Marketplace. Yet, our expertise encompasses the breadth of the smartphone ecosystems, including iOS, Android and Palm’s WebOS.</p><p></p>
 			</div>
 			<ul class="highlights">
 				<li>This was my earliest position as a technical leader, and I was going through significant learning</li>
@@ -539,132 +517,72 @@ header h2 {
 				<li>Gelled along with various individual contributors to help the organization meet its financial goal</li>
 				<li>Presented learnings and findings at various university events and global technology events</li>
 			</ul>
-		</div>
+		</section>
 	</section>
 
 	
 	<section id="education">
 		<h2>Education</h2>
 		<div class="item">
-			
-			<div class="institution">
-				FAST - NUCES
-			</div>
+			<header>
+					<h3 class="name">FAST - NUCES</h3>
+			</header>
 
-			<div class="study_date">
+			<div class="dates">
 				<span class="startDate">
-					2006-06-01
+					Jun 2006
 				</span>
 				<span class="endDate">
-					- 2010-07-01
+					- Jul 2010
 				</span>
 			</div>
 
+			<div class="qualification">
+				<span class="studyType">
+					Bachelor
+				</span>
 
-			<ul class="courses">
-				<li>Digital Logic Design</li>
-				<li>Assembly Language</li>
-				<li>Data Structures</li>
-				<li>Design Patterns</li>
-				<li>Web Programming</li>
-				<li>Compiler Construction</li>
-				<li>Concurrent and Distributed Systems</li>
-				<li>High Performance Computing</li>
-				<li>Database Design</li>
-			</ul>
+				<span class="area">
+					- Computer Science
+				</span>
+
+			</div>
 
 		</div>
 	</section>
 	
-	<section id="skills">
-		<h2>Skills</h2>
+	<section id="awards">
+		<h2>Awards</h2>
 		<div class="item">
-			<div class="name">
-				Web Development
+			<div class="title">
+				IASA IT Architecture Core (ITAC) – CITAF Certification
 			</div>
-			<div class="level">
-				<em>Expert</em>
+			<div class="date">
+				undefined NaN
 			</div>
-			<ul class="keywords">
-				<li>HTML</li>
-				<li>Javascript</li>
-			</ul>
+			<div class="awarder">
+				Iasa Global
+			</div>
+			<div class="summary">
+				<p>Anchors to the beginning of Architect position and responsibilities</p>
+			</div>
 		</div>
 		<div class="item">
-			<div class="name">
-				Software Architecture
+			<div class="title">
+				Won the GIKI SOFTCOM 08 (Programming Competition)
 			</div>
-			<div class="level">
-				<em>Advanced</em>
+			<div class="date">
+				undefined NaN
 			</div>
-			<ul class="keywords">
-				<li>Design-patterns</li>
-				<li>Distributed systems</li>
-				<li>Scalability</li>
-				<li>Maintainability</li>
-			</ul>
-		</div>
-		<div class="item">
-			<div class="name">
-				Software Development
+			<div class="awarder">
+				GIKI University Pakistan
 			</div>
-			<div class="level">
-				<em>Proficient</em>
+			<div class="summary">
+				<p>A speed programming competition of national level</p>
 			</div>
-			<ul class="keywords">
-				<li>Sustainability</li>
-				<li>Portability</li>
-				<li>Scalability</li>
-				<li>Reasonability</li>
-			</ul>
-		</div>
-		<div class="item">
-			<div class="name">
-				Problem Solving
-			</div>
-			<div class="level">
-				<em>Advanced</em>
-			</div>
-			<ul class="keywords">
-				<li>CompetitiveProgramming</li>
-				<li>Abstract</li>
-			</ul>
-		</div>
-		<div class="item">
-			<div class="name">
-				Draft documentation
-			</div>
-			<div class="level">
-				<em>Proficient</em>
-			</div>
-			<ul class="keywords">
-				<li>docsify</li>
-				<li>Github</li>
-				<li>MARP</li>
-				<li>Joplin</li>
-				<li>MermaidJS</li>
-				<li>FormsIO</li>
-			</ul>
-		</div>
-		<div class="item">
-			<div class="name">
-				Communication
-			</div>
-			<div class="level">
-				<em>Competent</em>
-			</div>
-			<ul class="keywords">
-				<li>face-2-face</li>
-				<li>emails</li>
-				<li>presentations</li>
-				<li>conference</li>
-				<li>buy-in talks</li>
-				<li>negotiations</li>
-				<li>layman conversions</li>
-				<li>1:1s</li>
-			</ul>
 		</div>
 	</section>
+	
 
 	<section id="languages">
 		<h2>Languages</h2>
@@ -672,7 +590,7 @@ header h2 {
 			<div class="language">
 				Urdu
 			</div>
-			<div class="level">
+			<div class="fluency">
 				<em>Native speaker</em>
 			</div>
 		</div>
@@ -680,7 +598,7 @@ header h2 {
 			<div class="language">
 				English
 			</div>
-			<div class="level">
+			<div class="fluency">
 				<em>Fluent</em>
 			</div>
 		</div>
@@ -745,6 +663,7 @@ header h2 {
 	</section>
 	
 	</div>
+	
 	
 
 </body></html>

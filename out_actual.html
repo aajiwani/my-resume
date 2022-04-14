@@ -1,0 +1,328 @@
+<html lang="en"><head><meta charset="utf-8"><style>@charset "UTF-8";
+/* Workaround for 'break-before:avoid' */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+span {
+  display: block; }
+
+p {
+  margin: 0; }
+
+@page {
+  size: A4;
+  margin: 15mm 0 20mm 0; }
+
+@page :first {
+  margin-top: 10mm; }
+
+a {
+  color: #222222;
+  font-weight: inherit;
+  text-decoration: none; }
+  a[href] {
+    text-decoration: underline;
+    text-decoration-color: #555555; }
+
+p {
+  line-height: 1.2; }
+
+li {
+  line-height: 1.3; }
+  li:first-child {
+    margin-top: 0; }
+
+.content {
+  width: 1000px;
+  height: auto;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222; }
+
+.table {
+  width: 100%;
+  display: table;
+  padding: 20px 0; }
+  .table .main {
+    display: table-cell;
+    width: 70%;
+    padding-right: 50px; }
+    .table .main .highlights {
+      width: auto;
+      display: block;
+      padding: 0 10px;
+      margin-top: 12.30769px;
+      margin-bottom: 0;
+      columns: 2;
+      column-width: 310px;
+      column-gap: 10px; }
+      .table .main .highlights li {
+        font-size: 14px;
+        list-style: none;
+        line-height: 1.2; }
+        .table .main .highlights li:before {
+          content: "· ";
+          vertical-align: middle; }
+  .table .side {
+    display: table-cell;
+    width: 30%;
+    padding-left: 50px;
+    text-align: right; }
+    .table .side p {
+      line-height: 1.3; }
+
+.section-title {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0 20px 0; }
+
+.margin-container-2:not(:first-child) {
+  margin-top: 20px; }
+
+.margin-container-3:not(:first-child) {
+  margin-top: 30px; }
+
+.margin-container-4:not(:first-child) {
+  margin-top: 50px; }
+
+.margin-text-1 {
+  margin-top: 0.25em; }
+  .margin-text-1:empty {
+    display: none; }
+
+.margin-text-2 {
+  margin-top: 0.5em; }
+  .margin-text-2:empty {
+    display: none; }
+
+.margin-text-3 {
+  margin-top: 1em; }
+  .margin-text-3:empty {
+    display: none; }
+
+.no-break {
+  break-inside: avoid; }
+
+.no-alone-1 {
+  break-inside: avoid; }
+  .no-alone-1::after {
+    content: "";
+    display: block;
+    height: 75px;
+    margin-bottom: -75px; }
+
+.no-alone-2 {
+  break-inside: avoid; }
+  .no-alone-2::after {
+    content: "";
+    display: block;
+    height: 150px;
+    margin-bottom: -150px; }
+
+.markdown h1 {
+  font-size: 160%;
+  font-weight: bolder; }
+
+.markdown h2 {
+  font-size: 150%;
+  font-weight: bolder; }
+
+.markdown h3 {
+  font-size: 140%;
+  font-weight: bolder; }
+
+.markdown h4 {
+  font-size: 130%;
+  font-weight: bold; }
+
+.markdown h5 {
+  font-size: 120%;
+  font-weight: bold; }
+
+.markdown h6 {
+  font-size: 110%;
+  font-weight: bold; }
+
+.markdown ul, .markdown ol {
+  margin-left: 20px; }
+
+.markdown img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: center; }
+
+.markdown blockquote {
+  margin: 20px 0;
+  padding: 15px 20px; }
+  .markdown blockquote p {
+    display: inline; }
+
+.markdown code {
+  font-family: monospace; }
+
+.basics .main {
+  vertical-align: middle; }
+  .basics .main .name {
+    font-size: 80px;
+    line-height: 1em;
+    font-weight: bold;
+    display: block;
+    margin-left: -5.6px; }
+  .basics .main .label {
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: lighter;
+    display: block;
+    margin-left: -1.6px; }
+
+.basics .side {
+  vertical-align: middle;
+  padding-left: 0;
+  padding-top: 15px; }
+  .basics .side .contact {
+    font-size: 18px;
+    list-style-type: none; }
+    .basics .side .contact li {
+      line-height: 1.5em; }
+
+.basics .summary {
+  font-size: 16px;
+  padding: 20px 0; }
+
+.work .header .table {
+  padding: 0; }
+  .work .header .table .left {
+    display: table-cell; }
+    .work .header .table .left .position {
+      font-size: 18px;
+      font-weight: bold;
+      display: block; }
+    .work .header .table .left .company-location {
+      font-size: 15px;
+      font-weight: lighter;
+      display: block; }
+      .work .header .table .left .company-location a {
+        text-decoration-color: #888888; }
+  .work .header .table .right {
+    text-align: right;
+    display: table-cell; }
+    .work .header .table .right .dates {
+      font-size: 15px;
+      font-weight: lighter; }
+
+.work .summary {
+  font-size: 16px;
+  padding: 0;
+  margin-top: 12.30769px; }
+  .work .summary:empty {
+    display: none; }
+
+.projects .header .name {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block; }
+  .projects .header .name a {
+    text-decoration-color: #222222; }
+
+.projects .header .roles {
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-block; }
+
+.projects .description {
+  font-size: 16px;
+  padding: 0;
+  margin-top: 12.30769px; }
+  .projects .description:empty {
+    display: none; }
+
+.skills .section-title {
+  margin: 0; }
+
+.skills .container {
+  display: block;
+  columns: 2;
+  column-gap: 10px; }
+  .skills .container .article {
+    break-inside: avoid-column;
+    width: 120px;
+    padding-top: 20px; }
+    .skills .container .article span {
+      display: block;
+      font-size: 18px;
+      font-weight: lighter; }
+    .skills .container .article li {
+      font-size: 14px;
+      list-style: none;
+      line-height: 1.3; }
+
+.education .title {
+  font-size: 15px; }
+
+.education .institution {
+  font-size: 15px;
+  font-weight: lighter; }
+  .education .institution a {
+    text-decoration-color: #888888; }
+
+.certificates .name {
+  font-size: 15px; }
+
+.certificates .issuer {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 0.35em; }
+
+.awards .header .title {
+  font-size: 16px;
+  display: inline-block; }
+
+.awards .header .awarder {
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 16px;
+  display: inline-block; }
+
+.awards .summary {
+  font-size: 14px; }
+
+.languages ul {
+  list-style: none; }
+  .languages ul li {
+    font-size: 14px; }
+
+.interests ul {
+  list-style: none; }
+  .interests ul li {
+    font-size: 14px; }
+
+.links ul {
+  list-style: none; }
+  .links ul li {
+    font-size: 14px; }
+</style><title>Actual theme for JSON Resume</title><link rel="stylesheet" href="./sticky_bar/styles.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head><body><div class="icon-bar"><a href="./actual.pdf" class="youtube" id="resume_download_btn"><i class="fa fa-download"></i></a></div><div class="content"><div class="basics"><div class="table"><div class="main"><span class="name">Amir Ali Jiwani</span><span class="label">Software Craftsman</span></div><div class="side"><ul class="contact"><li>(0066) 922381171</li><li>amirali.jiwani89@gmail.com</li><li class="margin-text-3">Bangkok, Watthana, TH</li></ul></div></div><div class="summary markdown"><p>A software enthusiast.&lt;br /&gt;&lt;br /&gt;I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.&lt;br /&gt;&lt;br /&gt;I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.&lt;br /&gt;&lt;br /&gt;Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.</p>
+</div></div><div class="table"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Software Engineering Manager</span><span class="company-location margin-text-1"><a href="https://www.agoda.com/">Agoda</a> · Bangkok, Thailand</span></div><div class="right"><span class="dates">Mar 2022 - Present</span></div></div></div><div class="summary markdown"><p>Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive</p>
+</div><ul class="highlights no-break"><li>Working with teams to migrate long-running legacy systems to a newer and a better stack</li><li>Keeping track of the learning abilities of my team so that they can progress in their respective careers and interests</li><li>Having 1:1s to shape up the team culture and align them with essential matters at the organization</li><li>Build a mindset and culture of quality first; Owning our stuff and converting them to quality artefacts and systems</li><li>Help the organization envision what moving away from legacy could mean and preach the benefits within the team(s)</li><li>Help the team understand Agility at work and take them through ceremonies; This helps the team give their best following sprints</li><li>Making an effort around organizational values, so it lives within the team and work we do.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Software Engineering Manager</span><span class="company-location margin-text-1"><a href="https://www.gaditek.com/">Gaditek</a> · Karachi, Pakistan</span></div><div class="right"><span class="dates">Mar 2021 - Mar 2022</span></div></div></div><div class="summary markdown"><p>Provided leadership across the engineering organization for the aspects of hiring, processes, architecture, grooming individuals and solving complex problems</p>
+</div><ul class="highlights no-break"><li>Introduced a hiring process and its custodianship (aka The Hiring Squad!)</li><li>Enabled the eco-system of documentation keeping and taking tools along with helping the team to use them day-in-day-out</li><li>Conducted 1:1s with team members to keep their inspirations and motivations up</li><li>Helped to bootstrap various products for a quick test with the upcoming consumer markets for the organization</li><li>Been a part of the team and the solution for complex problems like NotificationCenter, Auth provider selection and payment gateway solution</li><li>Created and vocalized a process of hiring interns and turning them into fellow beings</li><li>Led and represented the engineering department of the organization</li><li>Proactively participated in converting an old-school organization to an organization with agility</li><li>Helped and created career progression for various individuals in the organization</li><li>Proactively involved me with HR to discuss and demystify challenging problems</li><li>Introduced and have been the most potent catalyst in changing our product platform to be the cross-platform product</li><li>Enabled ways to bring in new dimensions to the product evolution, which were held back because of the absence of engineering leadership</li><li>Focus on quality deliverables -- Provided guidance to bring in an appropriate SDLC</li><li>I got involved and got my hands dirty with architecture decisions at various organizational levels</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Software Engineering Manager</span><span class="company-location margin-text-1"><a href="https://www.seek.com.au/">SEEK</a> · Kuala Lumpur, Malaysia</span></div><div class="right"><span class="dates">Feb 2020 - Mar 2021</span></div></div></div><div class="summary markdown"><p>SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p>
+</div><ul class="highlights no-break"><li>Contributed to SEEKs overall product &amp; technology strategy and aligned systems with that strategy</li><li>Ensured that systems were fit for purpose, well-architected and followed current SEEK development practices</li><li>Maintained platform health by ensuring that our systems are secure, reliable, resilient and cost-effective</li><li>Drove customer focus to ensure that we deliver excellent outcomes for our customers</li><li>Commenced and maintained a high performing team culture that values collaboration, learning and continual improvement</li><li>Acted as an enabler; Grew my team's technical skills and leadership capabilities through coaching and mentoring. This involves having 1:1s with my teammates</li><li>Lead by example, Which required me to get my hands dirty when needed</li><li>Unblocked the team with whatever it took, having complete ownership of maintaining healthy teams</li><li>Celebrated successes and learnt from the failures; propagated the culture through the teams and exemplified it for the rest of the organization</li><li>Paired with the Principal Engineer of the team to understand the climate and the team's problems</li><li>Participated in and retro-ed the core hiring process through a centralized hiring squad</li><li>Helped the org to move fast to the ecosystem of global products; Away from the local products which we have been dealing with for the past 25+ years</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Lead Software Architect</span><span class="company-location margin-text-1"><a href="https://www.seek.com.au/">SEEK</a> · Kuala Lumpur, Malaysia</span></div><div class="right"><span class="dates">May 2018 - Jan 2020</span></div></div></div><div class="summary markdown"><p>SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p>
+</div><ul class="highlights no-break"><li>Been the catalyst for transforming the organization</li><li>Performed the duties as the JavaScript coach for the organization</li><li>Advocated for and implemented software best practices</li><li>Have been the communicator for various teams to maintain their health; sometimes preached the organization's values</li><li>Participated as a core in hiring new and experienced talents</li><li>Propagated automation as a culture rather than an option</li><li>Moved legacy code and data to cloud via lift &amp; shift, greenfield and brownfield methodologies</li><li>Performed the duties of deciding and validating sensible defaults for the organization</li><li>Pushed cloud-first approach in the org, living in an environment of Infra ops</li><li>With the help of fellow architects, I invested time in a flourishing framework of single identity throughout SEEK systems; We did this through educating, enabling, and supporting the needful tools for the teams</li><li>Created several SDKs for a single identity solution within Seek with complete automation and tests. Later helped teams adopt them into various systems</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Senior Software Engineer (Full-Stack)</span><span class="company-location margin-text-1"><a href="https://www.exact.com/">Exact</a> · Kuala Lumpur, Malaysia</span></div><div class="right"><span class="dates">Oct 2016 - Jan 2018</span></div></div></div><div class="summary markdown"><p>We are Exact. We make smart business software. We are entrepreneurial and dream big, just like you. We help and encourage anyone we work with to always be the best version of themselves.</p>
+</div><ul class="highlights no-break"><li>Helped to come up with an end-to-end pipeline to build and release the product</li><li>Performed various tasks, including coding, building, testing, releasing and debugging the product</li><li>Made massive use of automation, including development and release cycles</li><li>Helped to produce tools that are helpful during the lifecycle of the product. Usually as a need to support the development</li><li>Helped POC the product initially with our customers to set up our product owner for the product's success</li><li>Created a framework single-handedly to help my fellow teammates with the needs of React Navigation and enable them to flourish their work distributedly and without flaws</li><li>Created and open-sourced a library that behaves as a HOC for navigation matters around React space</li><li>Created an in-house tool (based on ElectronJS) for various development teams that helps with the consumption of APIs without open API specs (legacy systems)</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Senior Software Engineer</span><span class="company-location margin-text-1"><a href="https://www.hexosys.com/">Hexosys</a> · Kuala Lumpur, Malaysia</span></div><div class="right"><span class="dates">Nov 2015 - Oct 2016</span></div></div></div><div class="summary markdown"><p>Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p>
+</div><ul class="highlights no-break"><li>Helped in a complete overhaul and rewriting of parts of the Albaloo product</li><li>Added the ability to target users through multi communication channels (SMS, emails, mobile notifications etc.)</li><li>Helped product with identifying with and implementing the ability of geo fencing the ads in the current platform</li><li>Introduced a custom framework on top of Laravel's current implementation to support custom JavaScript loading in the layout</li><li>Initialized and laid the basis for automation in the project, simplifying and making some tedious tasks process-oriented</li><li>Helped teams with mocks to let them produce their artefacts accordingly. Later replaced with the accurate data bounded by the contracts</li><li>Helped in versioning the APIs so that various teams in the organization consume their needed bits and are working harmoniously</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Senior Software Developer</span><span class="company-location margin-text-1"><a href="https://www.experian.co.uk">Experian</a> · Cyberjaya, Malaysia</span></div><div class="right"><span class="dates">Jul 2014 - Oct 2015</span></div></div></div><div class="summary markdown"><p>Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p>
+</div><ul class="highlights no-break"><li>Assisted developers with a better approach to the problem at hand. I have to talk with my Team lead and the Architect to finalise a software architecture decision</li><li>Primarily worked on the architectural aspects of the code, but I sometimes had the requirement to fix bugs and further minor changes</li><li>Got myself certified with CITA-F to get relevant in the architecture escape and software practices</li><li>Helped with adopting EHAB in various parts of our legacy application</li><li>Debugged and fixed various system parts containing loads of stored procedures and complex SQL queries</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Chief Technology Officer</span><span class="company-location margin-text-1"><a href="http://pilabs.com/">Pi-Labs</a> · Karachi, Pakistan</span></div><div class="right"><span class="dates">Jun 2010 - Feb 2014</span></div></div></div><div class="summary markdown"><p>Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have produced an app for the Microsoft Marketplace. Yet, our expertise encompasses the breadth of the smartphone ecosystems, including iOS, Android and Palm’s WebOS.</p>
+</div><ul class="highlights no-break"><li>This was my earliest position as a technical leader, and I was going through significant learning</li><li>Helped organization with various services-based projects; Dealt with multiple platforms and technologies</li><li>Created, architected and maintained a homegrown idea that later shifted to become Garfield's official game, Feed Garfield. The internal project name was Candy Pot. It was a team effort</li><li>Created, architected and maintained an idea in collaboration with our partner. It was a video and audio processing app; These were early days when Snapchat didn't exist; The project was named Gulf Talk</li><li>Worked on an aggregator banking solution known as Mobank for UK based banks. Clients were able to control their various accounts through this app</li><li>Pioneered the space of Windows 8 initial launching apps for Microsoft Singapore; some were CNA, DBS Bank Singapore, and The Straits Times Singapore</li><li>Worked on various 2d and 3d games</li><li>Used and improved the Cocos2dx platform to flourish 2d games on cross-platform technologies</li><li>Written several frameworks myself and open-sourced them later to help the community; To mention some: EasyNDK-for-cocos2dx, Easy-CURL-for-PHP</li><li>Gelled along with various individual contributors to help the organization meet its financial goal</li><li>Presented learnings and findings at various university events and global technology events</li></ul></div></div></div><div class="projects margin-container-4"><p class="section-title no-alone-2">Projects</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://grey-hydrant.surge.sh/">HiringSquadCreation</a></span> · <span class="roles">Product owner, Programmer, Orchestrator, Team lead and Role model</span></div><div class="description markdown"><p>A process consisting of humans to derive hiring spirit</p>
+</div><ul class="highlights no-break"><li>Involves feedback for the candidate, hr and the team all at the same time</li><li>Distributed in nature, different domain people could be indulged at different time to get a streamlined feedback</li><li>Created a dashboard, that helps with feedback collection and process guidlines</li><li>Uses bleeding edge tools like Docsify, NodeJS and FormsIO</li><li>Introduced a model to auto test candidates without human interventions (Codility)</li><li>Enabled team to discuss and create problems near to them to check the ability of candidates to grasp it (Github)</li><li>Helped in creation of relevant job-descriptions; Which talks about the role and kind of individuals we as a team would like to work with</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://github.com/aajiwani/websequencediagrams-docsify">Websequencediagrams:Docsify</a></span> · <span class="roles">Product owner, Programmer, Orchestrator and Need generator</span></div><div class="description markdown"><p>A plugin to pull in websequencediagrams under docsify web; It is free to use and try, even works async</p>
+</div><ul class="highlights no-break"><li>Created a plugin that is relevant for all docsify web</li><li>Has a way to load the diagrams async, with a cool loading animation</li><li>Now you don't need to store your images into the repo, rather just text, that could be version controlled</li><li>Uses bleeding edge tools like Docsify, NodeJS</li><li>Has a CI/CD with which any one can use the artefact straight from Github</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a>Modernizing Siva</a></span> · <span class="roles">Team lead, Programmer, Orchestrator, Need generator and Product owner</span></div><div class="description markdown"><p>A monolith legacy system, that is a bread and butter for JobStreet hirers. We were modernizing it to have a custom pipeline and segregated modules so that buildability and modifiability is there.</p>
+</div><ul class="highlights no-break"><li>Broke the single monolith into 35 submodules, that together forms this powerhouse</li><li>Decoded and scriptified the build process which was just available over a click only in VS 2015</li><li>Introduced buildability for various projects, so that engineers are welcomed to express changes</li><li>Enabled engineers to make changes into various sub-modules creating lead by example kind of framework</li><li>Created CI/CD based on buildkite using Mono framework to support .NET 2.0</li><li>Uses semantic versioning to deliver artefacts</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a>Identity provider SDKs</a></span> · <span class="roles">Team lead, Programmer, Orchestrator, Need generator, Product owner, Architect and Developer</span></div><div class="description markdown"><p>Helped with creating SDKs within the organization so that developers are enabled to use the best in class identity services</p>
+</div><ul class="highlights no-break"><li>Consumed 100+ pages docs and created 8 different SDKs in 8 different languages</li><li>Created world class documentation to use the SDK, instead of reading 100+ pages, usually just 10 lines of code</li><li>Introduced semantic versioning within the SDKs so that change could be well contained and not disastourous</li><li>Lead by example on raising PRs under various systems, so that developers are motivated to do so</li><li>SDKs varied from being old-school (.NET 2.0) to bleeding edge (ReactNative, NodeJS); Same functionality throughout</li></ul></div></div></div></div><div class="side"><div class="skills margin-container-4"><p class="section-title no-alone-1">Skills</p><div class="container"><div class="article no-break"><span>Web Development</span><ul class="margin-text-1"><li>HTML</li><li>Javascript</li></ul></div><div class="article no-break"><span>Software Architecture</span><ul class="margin-text-1"><li>Design-patterns</li><li>Distributed systems</li><li>Scalability</li><li>Maintainability</li></ul></div><div class="article no-break"><span>Software Development</span><ul class="margin-text-1"><li>Sustainability</li><li>Portability</li><li>Scalability</li><li>Reasonability</li></ul></div><div class="article no-break"><span>Problem Solving</span><ul class="margin-text-1"><li>CompetitiveProgramming</li><li>Abstract</li></ul></div><div class="article no-break"><span>Draft documentation</span><ul class="margin-text-1"><li>docsify</li><li>Github</li><li>MARP</li><li>Joplin</li><li>MermaidJS</li><li>FormsIO</li></ul></div><div class="article no-break"><span>Communication</span><ul class="margin-text-1"><li>face-2-face</li><li>emails</li><li>presentations</li><li>conference</li><li>buy-in talks</li><li>negotiations</li><li>layman conversions</li><li>1:1s</li></ul></div></div></div><div class="education margin-container-4"><p class="section-title no-alone-1">Education</p><div class="container"><div class="article margin-container-2 no-break"><div class="title markdown"><p>Bachelor, Computer Science</p>
+</div><span class="institution margin-text-1"><a href="http://khi.nu.edu.pk">FAST - NUCES</a></span></div></div></div><div class="awards margin-container-4"><p class="section-title no-alone-1">Awards</p><div class="container"><div class="article margin-container-2 no-break"><div class="header"><span class="awarder">Iasa Global</span> · <span class="title">IASA IT Architecture Core (ITAC) – CITAF Certification</span></div><div class="summary markdown margin-text-1"><p>Anchors to the beginning of Architect position and responsibilities</p>
+</div></div><div class="article margin-container-2 no-break"><div class="header"><span class="awarder">GIKI University Pakistan</span> · <span class="title">Won the GIKI SOFTCOM 08 (Programming Competition)</span></div><div class="summary markdown margin-text-1"><p>A speed programming competition of national level</p>
+</div></div></div></div><div class="languages margin-container-4 no-break"><p class="section-title no-alone-1">Languages</p><div class="container"><ul><li class="article margin-text-1">Urdu · Native speaker</li><li class="article margin-text-1">English · Fluent</li></ul></div></div><div class="interests margin-container-4 no-break"><p class="section-title no-alone-1">Interests</p><div class="container"><ul><li class="article margin-text-1">Home improvements &amp; engineering</li><li class="article margin-text-1">Software based home solutions</li><li class="article margin-text-1">Watching documentaries</li></ul></div></div><div class="links margin-container-4 no-break"><p class="section-title no-alone-1">Links</p><div class="container"><ul><li class="article margin-text-2"><a href="https://www.linkedin.com/in/amiralijiwani/"><strong>linkedin.com</strong>/in/amiralijiwani</a></li><li class="article margin-text-2"><a href="https://github.com/aajiwani"><strong>github.com</strong>/aajiwani</a></li></ul></div></div></div></div></div></body></html>

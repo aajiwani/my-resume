@@ -1,0 +1,1126 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Amir Ali Jiwani</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+
+    <style>
+      /*
+! tailwindcss v3.0.13 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: Ubuntu, ui-sans-serif, sans-serif; /* 4 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+Ensure the default browser behavior of the `hidden` attribute.
+*/
+
+[hidden] {
+  display: none;
+}
+  h1, h2, h3, h4, h5, h6 {
+  --tw-text-opacity: 1;
+  color: rgb(124 45 18 / var(--tw-text-opacity));
+}
+
+  h2 {
+  margin-bottom: 1rem;
+  display: inline-block;
+  -moz-column-break-after: avoid;
+       break-after: avoid;
+  border-radius: 0.5rem;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity));
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+  section {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
+  a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+*, ::before, ::after {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.order-1 {
+  order: 1;
+}
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+.m-1 {
+  margin: 0.25rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.w-2 {
+  width: 0.5rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
+}
+.list-inside {
+  list-style-position: inside;
+}
+.list-disc {
+  list-style-type: disc;
+}
+.break-inside-avoid {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-items-center {
+  justify-items: center;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.bg-orange-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 247 237 / var(--tw-bg-opacity));
+}
+.bg-orange-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+}
+.p-8 {
+  padding: 2rem;
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.italic {
+  font-style: italic;
+}
+.text-slate-900 {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+.text-orange-900 {
+  --tw-text-opacity: 1;
+  color: rgb(124 45 18 / var(--tw-text-opacity));
+}
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+.text-orange-700 {
+  --tw-text-opacity: 1;
+  color: rgb(194 65 12 / var(--tw-text-opacity));
+}
+@media print {
+
+  .print\:order-2 {
+    order: 2;
+  }
+
+  .print\:grid {
+    display: grid;
+  }
+
+  .print\:flex-row {
+    flex-direction: row;
+  }
+
+  .print\:justify-between {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 640px) {
+
+  .sm\:order-2 {
+    order: 2;
+  }
+
+  .sm\:grid {
+    display: grid;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+}
+
+    </style>
+
+
+	<link rel="stylesheet" href="./sticky_bar/styles.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+	<body class="bg-orange-50 p-8 text-slate-900 text-sm"><div class="icon-bar"><a href="./autumn.pdf" class="youtube" id="resume_download_btn"><i class="fa fa-download"></i></a></div>
+	<div class="max-w-4xl mx-auto px-2">
+  <div class="mb-2">
+      <div class="flex flex-col sm:flex-row print:flex-row sm:justify-between print:justify-between">
+        <div>
+          <h1 class="text-5xl mb-4">Amir Ali Jiwani</h1>
+          <h2 class="text-xl mb-4">Software Craftsman</h2>
+        </div>
+        <div>
+          	<section>
+                <div class="p-1 text-orange-900 flex flex-row">
+                  <span class="sr-only">Location: </span>
+                  <i class="fa fa-map-marker text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                    <span>Bangkok, Watthana, Thailand</span>
+                </div>      <div class="p-1 text-orange-900 flex flex-row">
+                  <span class="sr-only">E-mail: </span>
+                  <i class="fa fa-envelope text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                    <span>amirali.jiwani89@gmail.com</span>
+                </div>      <div class="p-1 text-orange-900 flex flex-row">
+                  <span class="sr-only">Phone: </span>
+                  <i class="fa fa-phone text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                    <span>(0066) 922381171</span>
+                </div>      <div class="p-1 text-orange-900 flex flex-row">
+                  <span class="sr-only">Website: </span>
+                  <i class="fa fa-desktop text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                    <a href="https://www.linkedin.com/in/amiralijiwani/"> www.linkedin.com/in/amiralijiwani <i class="fa fa-external-link text-xs" aria-hidden="true"></i></a>
+                </div>          <div class="p-1 text-orange-900 flex flex-row">
+                      <span class="sr-only">LinkedIn: </span>
+                      <i class="fa fa-linkedin text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                        <a href="https://www.linkedin.com/in/amiralijiwani/"> LinkedIn <i class="fa fa-external-link text-xs" aria-hidden="true"></i></a>
+                    </div>          <div class="p-1 text-orange-900 flex flex-row">
+                      <span class="sr-only">Github: </span>
+                      <i class="fa fa-github text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                        <a href="https://github.com/aajiwani"> Github <i class="fa fa-external-link text-xs" aria-hidden="true"></i></a>
+                    </div>	</section>
+        </div>
+      </div>
+    </div>
+      <div class="mb-4">
+        <p>A software enthusiast.&lt;br /&gt;&lt;br /&gt;I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.&lt;br /&gt;&lt;br /&gt;I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.&lt;br /&gt;&lt;br /&gt;Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.</p>
+      </div>
+    <div class="sm:grid print:grid grid-cols-4 gap-8">
+      <div class="sm:order-2 print:order-2 col-span-3 mb-4">
+        <section>
+        	<h2>Work</h2>
+            <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Agoda
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Software Engineering Manager
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Mar 2022
+                      - Present
+                  </div>
+              </div>
+                <p class="mb-2">Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Working with teams to migrate long-running legacy systems to a newer and a better stack</li>
+                    <li class="mb-1">Keeping track of the learning abilities of my team so that they can progress in their respective careers and interests</li>
+                    <li class="mb-1">Having 1:1s to shape up the team culture and align them with essential matters at the organization</li>
+                    <li class="mb-1">Build a mindset and culture of quality first; Owning our stuff and converting them to quality artefacts and systems</li>
+                    <li class="mb-1">Help the organization envision what moving away from legacy could mean and preach the benefits within the team(s)</li>
+                    <li class="mb-1">Help the team understand Agility at work and take them through ceremonies; This helps the team give their best following sprints</li>
+                    <li class="mb-1">Making an effort around organizational values, so it lives within the team and work we do.</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Gaditek
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Software Engineering Manager
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Mar 2021
+                      - Mar 2022
+                  </div>
+              </div>
+                <p class="mb-2">Provided leadership across the engineering organization for the aspects of hiring, processes, architecture, grooming individuals and solving complex problems</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Introduced a hiring process and its custodianship (aka The Hiring Squad!)</li>
+                    <li class="mb-1">Enabled the eco-system of documentation keeping and taking tools along with helping the team to use them day-in-day-out</li>
+                    <li class="mb-1">Conducted 1:1s with team members to keep their inspirations and motivations up</li>
+                    <li class="mb-1">Helped to bootstrap various products for a quick test with the upcoming consumer markets for the organization</li>
+                    <li class="mb-1">Been a part of the team and the solution for complex problems like NotificationCenter, Auth provider selection and payment gateway solution</li>
+                    <li class="mb-1">Created and vocalized a process of hiring interns and turning them into fellow beings</li>
+                    <li class="mb-1">Led and represented the engineering department of the organization</li>
+                    <li class="mb-1">Proactively participated in converting an old-school organization to an organization with agility</li>
+                    <li class="mb-1">Helped and created career progression for various individuals in the organization</li>
+                    <li class="mb-1">Proactively involved me with HR to discuss and demystify challenging problems</li>
+                    <li class="mb-1">Introduced and have been the most potent catalyst in changing our product platform to be the cross-platform product</li>
+                    <li class="mb-1">Enabled ways to bring in new dimensions to the product evolution, which were held back because of the absence of engineering leadership</li>
+                    <li class="mb-1">Focus on quality deliverables -- Provided guidance to bring in an appropriate SDLC</li>
+                    <li class="mb-1">I got involved and got my hands dirty with architecture decisions at various organizational levels</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      SEEK
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Software Engineering Manager
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Feb 2020
+                      - Mar 2021
+                  </div>
+              </div>
+                <p class="mb-2">SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Contributed to SEEKs overall product &amp; technology strategy and aligned systems with that strategy</li>
+                    <li class="mb-1">Ensured that systems were fit for purpose, well-architected and followed current SEEK development practices</li>
+                    <li class="mb-1">Maintained platform health by ensuring that our systems are secure, reliable, resilient and cost-effective</li>
+                    <li class="mb-1">Drove customer focus to ensure that we deliver excellent outcomes for our customers</li>
+                    <li class="mb-1">Commenced and maintained a high performing team culture that values collaboration, learning and continual improvement</li>
+                    <li class="mb-1">Acted as an enabler; Grew my team's technical skills and leadership capabilities through coaching and mentoring. This involves having 1:1s with my teammates</li>
+                    <li class="mb-1">Lead by example, Which required me to get my hands dirty when needed</li>
+                    <li class="mb-1">Unblocked the team with whatever it took, having complete ownership of maintaining healthy teams</li>
+                    <li class="mb-1">Celebrated successes and learnt from the failures; propagated the culture through the teams and exemplified it for the rest of the organization</li>
+                    <li class="mb-1">Paired with the Principal Engineer of the team to understand the climate and the team's problems</li>
+                    <li class="mb-1">Participated in and retro-ed the core hiring process through a centralized hiring squad</li>
+                    <li class="mb-1">Helped the org to move fast to the ecosystem of global products; Away from the local products which we have been dealing with for the past 25+ years</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      SEEK
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Lead Software Architect
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    May 2018
+                      - Jan 2020
+                  </div>
+              </div>
+                <p class="mb-2">SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Been the catalyst for transforming the organization</li>
+                    <li class="mb-1">Performed the duties as the JavaScript coach for the organization</li>
+                    <li class="mb-1">Advocated for and implemented software best practices</li>
+                    <li class="mb-1">Have been the communicator for various teams to maintain their health; sometimes preached the organization's values</li>
+                    <li class="mb-1">Participated as a core in hiring new and experienced talents</li>
+                    <li class="mb-1">Propagated automation as a culture rather than an option</li>
+                    <li class="mb-1">Moved legacy code and data to cloud via lift &amp; shift, greenfield and brownfield methodologies</li>
+                    <li class="mb-1">Performed the duties of deciding and validating sensible defaults for the organization</li>
+                    <li class="mb-1">Pushed cloud-first approach in the org, living in an environment of Infra ops</li>
+                    <li class="mb-1">With the help of fellow architects, I invested time in a flourishing framework of single identity throughout SEEK systems; We did this through educating, enabling, and supporting the needful tools for the teams</li>
+                    <li class="mb-1">Created several SDKs for a single identity solution within Seek with complete automation and tests. Later helped teams adopt them into various systems</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Exact
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Senior Software Engineer (Full-Stack)
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Oct 2016
+                      - Jan 2018
+                  </div>
+              </div>
+                <p class="mb-2">We are Exact. We make smart business software. We are entrepreneurial and dream big, just like you. We help and encourage anyone we work with to always be the best version of themselves.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Helped to come up with an end-to-end pipeline to build and release the product</li>
+                    <li class="mb-1">Performed various tasks, including coding, building, testing, releasing and debugging the product</li>
+                    <li class="mb-1">Made massive use of automation, including development and release cycles</li>
+                    <li class="mb-1">Helped to produce tools that are helpful during the lifecycle of the product. Usually as a need to support the development</li>
+                    <li class="mb-1">Helped POC the product initially with our customers to set up our product owner for the product's success</li>
+                    <li class="mb-1">Created a framework single-handedly to help my fellow teammates with the needs of React Navigation and enable them to flourish their work distributedly and without flaws</li>
+                    <li class="mb-1">Created and open-sourced a library that behaves as a HOC for navigation matters around React space</li>
+                    <li class="mb-1">Created an in-house tool (based on ElectronJS) for various development teams that helps with the consumption of APIs without open API specs (legacy systems)</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Hexosys
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Senior Software Engineer
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Nov 2015
+                      - Oct 2016
+                  </div>
+              </div>
+                <p class="mb-2">Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Helped in a complete overhaul and rewriting of parts of the Albaloo product</li>
+                    <li class="mb-1">Added the ability to target users through multi communication channels (SMS, emails, mobile notifications etc.)</li>
+                    <li class="mb-1">Helped product with identifying with and implementing the ability of geo fencing the ads in the current platform</li>
+                    <li class="mb-1">Introduced a custom framework on top of Laravel's current implementation to support custom JavaScript loading in the layout</li>
+                    <li class="mb-1">Initialized and laid the basis for automation in the project, simplifying and making some tedious tasks process-oriented</li>
+                    <li class="mb-1">Helped teams with mocks to let them produce their artefacts accordingly. Later replaced with the accurate data bounded by the contracts</li>
+                    <li class="mb-1">Helped in versioning the APIs so that various teams in the organization consume their needed bits and are working harmoniously</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Experian
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Senior Software Developer
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jul 2014
+                      - Oct 2015
+                  </div>
+              </div>
+                <p class="mb-2">Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Assisted developers with a better approach to the problem at hand. I have to talk with my Team lead and the Architect to finalise a software architecture decision</li>
+                    <li class="mb-1">Primarily worked on the architectural aspects of the code, but I sometimes had the requirement to fix bugs and further minor changes</li>
+                    <li class="mb-1">Got myself certified with CITA-F to get relevant in the architecture escape and software practices</li>
+                    <li class="mb-1">Helped with adopting EHAB in various parts of our legacy application</li>
+                    <li class="mb-1">Debugged and fixed various system parts containing loads of stored procedures and complex SQL queries</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Pi-Labs
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Chief Technology Officer
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jun 2010
+                      - Feb 2014
+                  </div>
+              </div>
+                <p class="mb-2">Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have produced an app for the Microsoft Marketplace. Yet, our expertise encompasses the breadth of the smartphone ecosystems, including iOS, Android and Palm’s WebOS.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">This was my earliest position as a technical leader, and I was going through significant learning</li>
+                    <li class="mb-1">Helped organization with various services-based projects; Dealt with multiple platforms and technologies</li>
+                    <li class="mb-1">Created, architected and maintained a homegrown idea that later shifted to become Garfield's official game, Feed Garfield. The internal project name was Candy Pot. It was a team effort</li>
+                    <li class="mb-1">Created, architected and maintained an idea in collaboration with our partner. It was a video and audio processing app; These were early days when Snapchat didn't exist; The project was named Gulf Talk</li>
+                    <li class="mb-1">Worked on an aggregator banking solution known as Mobank for UK based banks. Clients were able to control their various accounts through this app</li>
+                    <li class="mb-1">Pioneered the space of Windows 8 initial launching apps for Microsoft Singapore; some were CNA, DBS Bank Singapore, and The Straits Times Singapore</li>
+                    <li class="mb-1">Worked on various 2d and 3d games</li>
+                    <li class="mb-1">Used and improved the Cocos2dx platform to flourish 2d games on cross-platform technologies</li>
+                    <li class="mb-1">Written several frameworks myself and open-sourced them later to help the community; To mention some: EasyNDK-for-cocos2dx, Easy-CURL-for-PHP</li>
+                    <li class="mb-1">Gelled along with various individual contributors to help the organization meet its financial goal</li>
+                    <li class="mb-1">Presented learnings and findings at various university events and global technology events</li>
+                </ul>
+            </div></section>
+        <section>
+        	<h2>Education</h2>
+            <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      FAST - NUCES
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Bachelor in Computer Science
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jun 2006
+                      - Jul 2010
+                  </div>
+              </div>
+            </div></section>
+        <section>
+        	<h2>Awards</h2>
+            <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      IASA IT Architecture Core (ITAC) – CITAF Certification
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Iasa Global
+                    </p>
+                </div>
+                      <div class="text-sm text-orange-500">
+                        May 2015
+                      </div>
+              </div>
+                <p class="mb-2">Anchors to the beginning of Architect position and responsibilities</p>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Won the GIKI SOFTCOM 08 (Programming Competition)
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      GIKI University Pakistan
+                    </p>
+                </div>
+                      <div class="text-sm text-orange-500">
+                        Apr 2008
+                      </div>
+              </div>
+                <p class="mb-2">A speed programming competition of national level</p>
+            </div></section>
+        <section>
+        	<h2>References</h2>
+        	<div class="p-2 bg-orange-100 rounded mb-2">
+        		<blockquote class="italic mb-2">
+        			Amir is surely missed by his team/peers and I think any company would find great benefit with the addition of Amir to their leadership and technical team. Wish you all the best Amir and hope our paths cross again.
+        		</blockquote>
+        		<div class="font-bold text-orange-500">
+        			Heinrich Rust
+        		</div>
+        	</div>
+        	<div class="p-2 bg-orange-100 rounded mb-2">
+        		<blockquote class="italic mb-2">
+        			As a colleague Amir is friendly, personable, has an easy manner and great sense of humour. A clear communicator with a voice for radio, Amir is wise head on young shoulders.
+        		</blockquote>
+        		<div class="font-bold text-orange-500">
+        			Paul Fitzgerald
+        		</div>
+        	</div>
+        </section>
+      </div>
+      <div class="order-1 col-span-1 mb-4">
+        <section>
+        	<h2>Skills</h2>
+            <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Web Development</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">HTML</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Javascript</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Software Architecture</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Design-patterns</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Distributed systems</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Scalability</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Maintainability</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Software Development</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Sustainability</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Portability</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Scalability</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Reasonability</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Problem Solving</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">CompetitiveProgramming</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Abstract</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Draft documentation</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">docsify</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Github</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">MARP</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Joplin</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">MermaidJS</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">FormsIO</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Communication</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">face-2-face</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">emails</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">presentations</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">conference</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">buy-in talks</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">negotiations</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">layman conversions</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">1:1s</span>
+                </div>
+            </div></section>
+        <section>
+        	<h2>Languages</h2>
+            <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Urdu</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Native speaker</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">English</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Fluent</span>
+                </div>
+            </div></section>
+        <section>
+        	<h2>Interests</h2>
+            <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Home improvements &amp; engineering</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Plumbing</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Electric-appliances</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Civil engineering</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Software based home solutions</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">IoT</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Home-server</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">plex</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">raspberry-pi</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">cups</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">saned</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Watching documentaries</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Idiocracy</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Lord-of-the-rings</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">movies</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">documentaries</span>
+                </div>
+            </div></section>
+      </div>
+    </div>
+	
+
+</div></body></html>
