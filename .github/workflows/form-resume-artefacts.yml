@@ -20,7 +20,6 @@ jobs:
           npm install https://github.com/floatdrop/pinkie-promise.git
           npm install
           npm install kiss-my-resume -g
-          kissmyresume
       - name: Validates the resume data
         run: |
           node node_modules/resume-cli/build/main.js validate
