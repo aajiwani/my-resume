@@ -23,6 +23,7 @@ jobs:
           npm install escape-string-regexp@2.0.0 -g
           npm install ansi-styles@4.0.0 -g
           npm install supports-color@6.0.0 -g
+          npm install parse-filepath
       - name: Validates the resume data
         run: |
           node node_modules/resume-cli/build/main.js validate
