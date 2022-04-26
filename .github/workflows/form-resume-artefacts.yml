@@ -16,10 +16,7 @@ jobs:
         with:
           node-version: 18.x
       - name: Install the dependencies
-        run: |
-          npm install https://github.com/floatdrop/pinkie-promise.git
-          npm install
-          npm install hackmyresume -g
+        run: npm install https://github.com/floatdrop/pinkie-promise.git && npm install && npm install hackmyresume -g
       - name: Validates the resume data
         run: |
           node node_modules/resume-cli/build/main.js validate
