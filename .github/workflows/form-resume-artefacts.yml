@@ -19,24 +19,21 @@ jobs:
         run: |
           npm install https://github.com/floatdrop/pinkie-promise.git
           npm install
-          npm install hackmyresume -g
-          npm install escape-string-regexp@2.0.0 -g
-          npm install ansi-styles@4.0.0 -g
-          npm install supports-color@6.0.0 -g
-          npm install parse-filepath
+          npm install kiss-my-resume -g
+          kissmyresume
       - name: Validates the resume data
         run: |
           node node_modules/resume-cli/build/main.js validate
-          hackmyresume validate resume.json
+          kissmyresume validate resume.json
       - name: Generates the static resume bundles for web and pdf
         run: node helper_scripts/generate_for_themes.js ./
-      - name: Analyze resume using HackMyResume
-        run: hackmyresume analyze resume.json
-      - name: Upload artefacts from HackMyResume
+      # - name: Analyze resume using HackMyResume
+      #   run: hackmyresume analyze resume.json
+      - name: Upload artefacts from KissMyResume
         run: |
-          mkdir hackmyresume
-          hackmyresume build resume.json hackmyresume/resume.doc -t node_modules/jsonresume-theme-short
-          curl --upload-file ./hackmyresume/resume.doc https://transfer.sh/amir_resume.doc
+          mkdir kissmyresume
+          kissmyresume build resume.json -f DOCX -t node_modules/jsonresume-theme-short -n amir_resume -o ./kissmyresume
+          curl --upload-file ./kissmyresume/amir_resume.docx https://transfer.sh/amir_resume.docx
       - name: Get the landing page setup in place
         run: cp -a ./landing_page/. ./public/
       - name: Deploy 🚀
