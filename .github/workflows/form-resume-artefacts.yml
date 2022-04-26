@@ -1,9 +1,9 @@
 name: Form resume artefacts
 
-on:
-  push:
-    branches:
-      - get-resume-at-par
+on: push
+# push:
+#   branches:
+#     - get-resume-at-par
       
 jobs:
   Forms-Resume-To-Share:
