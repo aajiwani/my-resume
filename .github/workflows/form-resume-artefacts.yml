@@ -20,7 +20,7 @@ jobs:
           npm install https://github.com/floatdrop/pinkie-promise.git
           npm install
           npm install hackmyresume -g
-          npm install escape-string-regexp
+          npm install escape-string-regexp -g
       - name: Validates the resume data
         run: |
           node node_modules/resume-cli/build/main.js validate
