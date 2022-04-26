@@ -18,6 +18,7 @@ jobs:
       - name: Install the dependencies
         run: |
           npm install
+          npm install https://github.com/floatdrop/pinkie-promise.git
           npm install hackmyresume -g
       - name: Validates the resume data
         run: |
