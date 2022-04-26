@@ -16,11 +16,22 @@ jobs:
         with:
           node-version: 16.x
       - name: Install the dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install hackmyresume -g
       - name: Validates the resume data
-        run: node node_modules/resume-cli/build/main.js validate
+        run: |
+          node node_modules/resume-cli/build/main.js validate
+          hackmyresume validate resume.json
       - name: Generates the static resume bundles for web and pdf
         run: node helper_scripts/generate_for_themes.js ./
+      - name: Analyze resume using HackMyResume
+        run: hackmyresume analyze resume.json
+      - name: Upload artefacts from HackMyResume
+        run: |
+          mkdir hackmyresume
+          hackmyresume build resume.json hackmyresume/resume.doc -t node_modules/jsonresume-theme-short
+          curl --upload-file ./hackmyresume/resume.doc https://transfer.sh/amir_resume.doc
       - name: Get the landing page setup in place
         run: cp -a ./landing_page/. ./public/
       - name: Deploy 🚀
