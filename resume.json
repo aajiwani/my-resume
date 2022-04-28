@@ -49,8 +49,8 @@
       ]
     },
     {
-      "name": "Gaditek",
-      "company": "Gaditek",
+      "name": "PureVPN",
+      "company": "PureVPN",
       "location": "Karachi, Pakistan",
       "description": "Gaditek falls under Disrupt.com group; Making electronic products for individuals around the world, from the developers around the world",
       "position": "Software Engineering Manager",
@@ -250,7 +250,9 @@
       "level": "Expert",
       "keywords": [
         "HTML",
-        "Javascript"
+        "Javascript",
+        "NodeJS",
+        "ReactJS"
       ]
     },
     {
