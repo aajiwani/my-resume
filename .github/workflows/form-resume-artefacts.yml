@@ -3,7 +3,7 @@ name: Form resume artefacts
 on:
   push:
     branches:
-      - get-resume-at-par
+      - fix-resume-content
       
 jobs:
   Forms-Resume-To-Share:
