@@ -32,7 +32,12 @@
     {
       "name": "Agoda",
       "company": "Agoda",
-      "location": "Bangkok, Thailand",
+      "location": {
+        "address": "999/9 The offices at central World 27th Floor",
+        "postalCode": "10330",
+        "city": "Bangkok",
+        "countryCode": "TH"
+      },
       "description": "Tagline: Less Hassle, More Travel.",
       "position": "Software Engineering Manager",
       "url": "https://www.agoda.com/",
@@ -51,7 +56,13 @@
     {
       "name": "PureVPN",
       "company": "PureVPN",
-      "location": "Karachi, Pakistan",
+      "location": {
+        "address": "140-H Allama Iqbal Rd, P.E.C.H.S Block 2 Block 2 PECHS",
+        "postalCode": "75400",
+        "city": "Karachi",
+        "countryCode": "PK",
+        "region": "Sindh"
+      },
       "description": "PureVPN is a world class VPN product -- Has grounds in B2B and B2C landscapes",
       "position": "Software Engineering Manager",
       "url": "https://www.purevpn.com/",
@@ -78,7 +89,13 @@
     {
       "name": "SEEK",
       "company": "SEEK",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": {
+        "address": "Level 20, Menara AIA CapSquare, No, 10, Jalan Munshi Abdullah",
+        "postalCode": "50100",
+        "city": "Kuala Lumpur",
+        "countryCode": "MY",
+        "region": "WP Kuala Lumpur"
+      },
       "description": "Solving the problem of connecting the right candidate to the needful hirers",
       "position": "Software Engineering Manager",
       "url": "https://www.seek.com.au/",
@@ -103,7 +120,13 @@
     {
       "name": "SEEK",
       "company": "SEEK",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": {
+        "address": "Level 20, Menara AIA CapSquare, No, 10, Jalan Munshi Abdullah",
+        "postalCode": "50100",
+        "city": "Kuala Lumpur",
+        "countryCode": "MY",
+        "region": "WP Kuala Lumpur"
+      },
       "description": "Solving the problem of connecting the right candidate to the needful hirers",
       "position": "Lead Software Architect",
       "url": "https://www.seek.com.au/",
@@ -127,7 +150,13 @@
     {
       "name": "Exact",
       "company": "Exact",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": {
+        "address": "Suite 8-01 & 8-02, Level 8, G Tower, 199, Jln Tun Razak",
+        "postalCode": "50400",
+        "city": "Kuala Lumpur",
+        "countryCode": "MY",
+        "region": "WP Kuala Lumpur"
+      },
       "description": "Cloud business software for SMEs and their accountants",
       "position": "Senior Software Engineer (Full-Stack)",
       "url": "https://www.exact.com/",
@@ -148,7 +177,13 @@
     {
       "name": "Hexosys",
       "company": "Hexosys",
-      "location": "Kuala Lumpur, Malaysia",
+      "location": {
+        "address": "Lot 3-2, Enterprise 3B, TPM, Bukit Jalil",
+        "postalCode": "57000",
+        "city": "Kuala Lumpur",
+        "countryCode": "MY",
+        "region": "WP Kuala Lumpur"
+      },
       "description": "Albaloo is a fast growing location based advertising platform, consists of Mobile App, Web Portal, Social Media Fan Pages and 3rd Party Advertising Partners.",
       "position": "Senior Software Engineer",
       "url": "https://www.hexosys.com/",
@@ -168,7 +203,13 @@
     {
       "name": "Experian",
       "company": "Experian",
-      "location": "Cyberjaya, Malaysia",
+      "location": {
+        "address": "Ground Floor, Block B, Quill 18, Lingkaran Teknokrat 3 Barat",
+        "postalCode": "63000",
+        "city": "Cyberjaya",
+        "countryCode": "MY",
+        "region": "Selangor"
+      },
       "description": "I worked on Experian Marketing Suite. It manages marketing campaigns in a cross-channel way. Whether Twitter, Facebook, email, SMS, or other such means, it covers them all.",
       "position": "Senior Software Developer",
       "url": "https://www.experian.co.uk",
@@ -186,7 +227,13 @@
     {
       "name": "Pi-Labs",
       "company": "Pi-Labs",
-      "location": "Karachi, Pakistan",
+      "location": {
+        "address": "801 & 813, Portway Trade Center, Sh-Faisal",
+        "postalCode": "74600",
+        "city": "Karachi",
+        "countryCode": "PK",
+        "region": "Sindh"
+      },
       "description": "A service provider for various kinds of software needs to our clients.",
       "position": "Chief Technology Officer",
       "url": "http://pilabs.com/",
