@@ -5,15 +5,15 @@
     "label": "Software Craftsman",
     "picture": "https://en.gravatar.com/userimage/16232986/5cc37ef158c48a160aa2df2813e40336.jpg?size=400",
     "email": "amirali.jiwani89@gmail.com",
-    "phone": "(0066) 922381171",
+    "phone": "(0060) 1137016602",
     "website": "https://www.linkedin.com/in/amiralijiwani/",
     "summary": "A software enthusiast.<br /><br />I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.<br /><br />I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.<br /><br />Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.",
     "location": {
-      "address": "Room 262, floor 18th, 53 Sukhumvit 71 Rd, Phra Khanong Nuea",
-      "postalCode": "10110",
-      "city": "Bangkok",
-      "countryCode": "TH",
-      "region": "Watthana"
+      "address": "A1-17-03, Vista Komanwel A, Jalan Jalil Perkasa 19",
+      "postalCode": "57700",
+      "city": "Kuala Lumpur",
+      "countryCode": "MY",
+      "region": "Wilayah Persekutuan"
     },
     "profiles": [
       {
@@ -30,6 +30,25 @@
   },
   "work": [
     {
+      "name": "PicklesAuctions",
+      "company": "PicklesAuctions",
+      "location": "Kuala Lumpur, Malaysia",
+      "description": "An auction platform for almost any sort of asset; With experiences and services to get the right solution",
+      "position": "Senior Principal Engineer",
+      "url": "https://www.pickles.com.au/",
+      "startDate": "2022-07-01",
+      "summary": "An individual contributor, having eyes over various matters of engineering organization and cultures -- Be it ownership of tech or getting hands dirty, I am involved in various acts.",
+      "highlights": [
+        "Been wishful with team(s), to understand their systems and ceased the opportunity of improvements",
+        "By the means of experience in the industry; suggested what makes sense, living with the system(s) and the team(s)",
+        "Served as a catalyst to bring a culture change to the org, which values ownership and custodianship",
+        "Been the speaker of quality and doing things right",
+        "Along with team(s), got involved with fulfilling the architecture needs of the system",
+        "Got hands dirty and showed actions by example",
+        "Got involved with writing `The missing living documentation` at various fronts (on-boarding, system(s), teams etc)."
+      ]
+    },
+    {
       "name": "Agoda",
       "company": "Agoda",
       "location": "Bangkok, Thailand",
@@ -37,6 +56,7 @@
       "position": "Software Engineering Manager",
       "url": "https://www.agoda.com/",
       "startDate": "2022-03-14",
+      "endDate": "2022-06-30",
       "summary": "Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive",
       "highlights": [
         "Working with teams to migrate long-running legacy systems to a newer and a better stack",
@@ -50,7 +70,7 @@
     },
     {
       "name": "Gaditek",
-      "company": "Gaditek",
+      "company": "PureVPN",
       "location": "Karachi, Pakistan",
       "description": "Gaditek falls under Disrupt.com group; Making electronic products for individuals around the world, from the developers around the world",
       "position": "Software Engineering Manager",
