@@ -5,15 +5,15 @@
     "label": "Software Craftsman",
     "picture": "https://en.gravatar.com/userimage/16232986/5cc37ef158c48a160aa2df2813e40336.jpg?size=400",
     "email": "amirali.jiwani89@gmail.com",
-    "phone": "(0066) 922381171",
+    "phone": "(0060) 1137016602",
     "website": "https://www.linkedin.com/in/amiralijiwani/",
     "summary": "A software enthusiast.<br /><br />I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.<br /><br />I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.<br /><br />Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.",
     "location": {
-      "address": "Room 262, floor 18th, 53 Sukhumvit 71 Rd, Phra Khanong Nuea",
-      "postalCode": "10110",
-      "city": "Bangkok",
-      "countryCode": "TH",
-      "region": "Watthana"
+      "address": "A1-17-03, Vista Komanwel A, Jalan Jalil Perkasa 19",
+      "postalCode": "57700",
+      "city": "Bukit Jalil",
+      "countryCode": "MY",
+      "region": "WP Kuala Lumpur"
     },
     "profiles": [
       {
@@ -30,13 +30,36 @@
   },
   "work": [
     {
+      "name": "PicklesAuctions",
+      "company": "PicklesAuctions",
+      "location": "Kuala Lumpur, Malaysia",
+      "description": "Pickles Asia is the largest and most trusted auction company in Malaysia!",
+      "position": "Senior Principal Engineer",
+      "url": "https://www.pickles.my/",
+      "startDate": "2022-07-01",
+      "endDate": "2023-02-09",
+      "summary": "Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive",
+      "highlights": [
+        "Examplify being a senior team member, not limited to the delivery but as someone colleagues can look up to for holding values",
+        "Be a catalyst to execute and deliver the system from the current state to the imagined one",
+        "Architect various big and small pieces of the system wherever necessary. It involves rewriting several heavy-weight components to fit the need; sometimes, it may require a clean slate implementation of the parts of the system",
+        "Infuse and practice a culture of learning while performing the duties",
+        "Participate in conversations with various system stakeholders to achieve the best outcome possible",
+        "Articulate problems that are understandable and approachable by teams and stakeholders",
+        "Take on the ownership of various projects within the ecosystem to deliver and maintain them",
+        "Help relatively junior team members have the spark to shine and help them shine",
+        "Propose architecture for various system needs, implement them, and vocalize them within multiple teams"
+      ]
+    },
+    {
       "name": "Agoda",
       "company": "Agoda",
       "location": "Bangkok, Thailand",
-      "description": "Tagline: Less Hassle, More Travel.",
+      "description": "Tagline: Less Hassle, More Travel",
       "position": "Software Engineering Manager",
       "url": "https://www.agoda.com/",
       "startDate": "2022-03-14",
+      "endDate": "2022-07-12",
       "summary": "Leading several teams, working on solutions based upon distributed computing to make the e-commerce scene under the global travel space alive",
       "highlights": [
         "Working with teams to migrate long-running legacy systems to a newer and a better stack",
@@ -83,7 +106,7 @@
       "position": "Software Engineering Manager",
       "url": "https://www.seek.com.au/",
       "startDate": "2020-02-01",
-      "endDate": "2021-03-31",
+      "endDate": "2021-03-22",
       "summary": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
       "highlights": [
         "Contributed to SEEKs overall product & technology strategy and aligned systems with that strategy",
@@ -107,8 +130,8 @@
       "description": "Solving the problem of connecting the right candidate to the needful hirers",
       "position": "Lead Software Architect",
       "url": "https://www.seek.com.au/",
-      "startDate": "2018-05-01",
-      "endDate": "2020-01-01",
+      "startDate": "2018-07-02",
+      "endDate": "2020-01-31",
       "summary": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
       "highlights": [
         "Been the catalyst for transforming the organization",
@@ -131,8 +154,8 @@
       "description": "Cloud business software for SMEs and their accountants",
       "position": "Senior Software Engineer (Full-Stack)",
       "url": "https://www.exact.com/",
-      "startDate": "2016-10-01",
-      "endDate": "2018-01-01",
+      "startDate": "2016-09-19",
+      "endDate": "2018-01-27",
       "summary": "We are Exact. We make smart business software. We are entrepreneurial and dream big, just like you. We help and encourage anyone we work with to always be the best version of themselves.",
       "highlights": [
         "Helped to come up with an end-to-end pipeline to build and release the product",
@@ -152,8 +175,8 @@
       "description": "Albaloo is a fast growing location based advertising platform, consists of Mobile App, Web Portal, Social Media Fan Pages and 3rd Party Advertising Partners.",
       "position": "Senior Software Engineer",
       "url": "https://www.hexosys.com/",
-      "startDate": "2015-11-01",
-      "endDate": "2016-10-01",
+      "startDate": "2016-01-02",
+      "endDate": "2016-09-30",
       "summary": "Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.",
       "highlights": [
         "Helped in a complete overhaul and rewriting of parts of the Albaloo product",
@@ -172,8 +195,8 @@
       "description": "I worked on Experian Marketing Suite. It manages marketing campaigns in a cross-channel way. Whether Twitter, Facebook, email, SMS, or other such means, it covers them all.",
       "position": "Senior Software Developer",
       "url": "https://www.experian.co.uk",
-      "startDate": "2014-07-01",
-      "endDate": "2015-10-01",
+      "startDate": "2014-07-23",
+      "endDate": "2015-11-30",
       "summary": "Accomplishing more than 150 main products as cutting-edge technology protocol/bus analyzers, reveals great ability of HexoSys to delivering new projects within the field of expertise with complete maturity and high competitive to the global high-tech market.",
       "highlights": [
         "Assisted developers with a better approach to the problem at hand. I have to talk with my Team lead and the Architect to finalise a software architecture decision",
@@ -190,8 +213,8 @@
       "description": "A service provider for various kinds of software needs to our clients.",
       "position": "Chief Technology Officer",
       "url": "http://pilabs.com/",
-      "startDate": "2010-06-01",
-      "endDate": "2014-02-01",
+      "startDate": "2010-07-10",
+      "endDate": "2014-03-30",
       "summary": "Our passion for mobile software and our ability to deliver engaging solutions has given us much acclaim. Early adoption of Windows Phone 7 meant we were one of the first companies globally to have produced an app for the Microsoft Marketplace. Yet, our expertise encompasses the breadth of the smartphone ecosystems, including iOS, Android and Palm’s WebOS.",
       "highlights": [
         "This was my earliest position as a technical leader, and I was going through significant learning",
