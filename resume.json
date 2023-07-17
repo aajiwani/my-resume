@@ -5,15 +5,15 @@
     "label": "Software Craftsman",
     "picture": "https://en.gravatar.com/userimage/16232986/5cc37ef158c48a160aa2df2813e40336.jpg?size=400",
     "email": "amirali.jiwani89@gmail.com",
-    "phone": "(0060) 1137016602",
+    "phone": "(0061) 497484475",
     "website": "https://www.linkedin.com/in/amiralijiwani/",
-    "summary": "A software enthusiast.<br /><br />I have been working as a developer for around a decade. During this time, I got a chance to visit various domains and technologies, which helped shape how I think and work now.<br /><br />I like to create software and help other developers like me around. I have recently been interested in making more layman talks than the geeky (development intensive). I believe everyone attached to a concept should have a right to completely and concisely understand it.<br /><br />Some recent technologies I have been working on are NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform.",
+    "summary": "A software enthusiast -- Developing software for human beings as a human for over a decade. I have got a chance to visit various domains and technologies during this time; The experience has shaped the way I think and work now. I like to create software and help other developers like me around. I have recently been interested in connecting the dots, making concepts available in layman's terms and helping bridge the gap between specialists (usually developers) and other stakeholders. I believe everyone attached to a concept should have a right to completely and concisely understand it, enabling them to contribute to the purpose. I have been working on recent technologies like NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform usually. However, knowing platforms give me an edge over someone that might not.",
     "location": {
-      "address": "A1-17-03, Vista Komanwel A, Jalan Jalil Perkasa 19",
-      "postalCode": "57700",
-      "city": "Bukit Jalil",
-      "countryCode": "MY",
-      "region": "WP Kuala Lumpur"
+      "address": "17 Ashbourne Boulevard, Donnybrook",
+      "postalCode": "3064",
+      "city": "Melbourne",
+      "countryCode": "AU",
+      "region": "Victoria"
     },
     "profiles": [
       {
@@ -29,6 +29,28 @@
     ]
   },
   "work": [
+    {
+      "name": "SEEK",
+      "company": "SEEK",
+      "location": "Melbourne, Australia",
+      "description": "Matching candidates with hirers in a hassle free way",
+      "position": "Lead Engineer",
+      "url": "https://www.seek.com.au/",
+      "startDate": "2023-02-15",
+      "summary": "Working with other platform teams and residing under the online identity space, leading a team of engineers to build the right tools engineered in a reasonable fashion",
+      "highlights": [
+        "Examplify being a senior team member; Available, willing to help and leading by example",
+        "Helping the journey of organization to fulfil the goal of unifying systems to the selected one",
+        "Architect various big and small pieces of the system wherever necessary. It involves rewriting several heavy-weight components to fit the need; sometimes, it may require a clean slate implementation of the parts of the system",
+        "Voice out an opinion that helps the team to think in the right direction",
+        "Partner with Staff engineer and Engineering manager to help steer team in the right focus area",
+        "Nourishing junior members with SEEK values and behaviors",
+        "Participate in conversations with various system stakeholders to achieve the best outcome possible",
+        "Articulate problems that are understandable and approachable by teams and stakeholders",
+        "Help multiple actors in the team to understand and get around the problem in layman terms",
+        "Propose architecture for various system needs, implement them, and vocalize them within multiple teams"
+      ]
+    },
     {
       "name": "PicklesAuctions",
       "company": "PicklesAuctions",
