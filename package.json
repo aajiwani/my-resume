@@ -27,6 +27,6 @@
     "underscore.string": "^3.3.5"
   },
   "dependencies": {
-    "puppeteer": "^13.5.1"
+    "puppeteer": "^16.1.0"
   }
 }
