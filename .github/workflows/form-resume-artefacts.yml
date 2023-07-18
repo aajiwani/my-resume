@@ -10,17 +10,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup node 16
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
       - name: Install the dependencies
         run: npm install
       - name: Validates the resume data
         run: node node_modules/resume-cli/build/main.js validate
+      - name: Install puppeteer and like wise
+        run: sudo apt-get install -y udev ttf-freefont chromium && npm install puppeteer@16.1.0
       - name: Generates the static resume bundles for web and pdf
         run: node helper_scripts/generate_for_themes.js ./
+        env:
+          RESUME_PUPPETEER_NO_SANDBOX: true
+          CHROME_BIN: "/usr/bin/chromium-browser"
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
       - name: Get the landing page setup in place
         run: cp -a ./landing_page/. ./public/
       - name: Deploy 🚀
