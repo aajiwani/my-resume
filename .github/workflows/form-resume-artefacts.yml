@@ -20,7 +20,7 @@ jobs:
       - name: Validates the resume data
         run: node node_modules/resume-cli/build/main.js validate
       - name: Install puppeteer and like wise
-        run: sudo apt-get install -y udev ttf-freefont chromium && npm install puppeteer@16.1.0
+        run: sudo apt-get install -y udev chromium-bsu && npm install puppeteer@16.1.0
       - name: Generates the static resume bundles for web and pdf
         run: node helper_scripts/generate_for_themes.js ./
         env:
