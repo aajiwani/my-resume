@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Amir Ali Jiwani",
-    "label": "Software Craftsman",
+    "label": "Lead Engineer / Staff Engineer – Platform & Identity & Distributed Systems",
     "picture": "https://en.gravatar.com/userimage/16232986/5cc37ef158c48a160aa2df2813e40336.jpg?size=400",
     "email": "amirali.jiwani89@gmail.com",
     "phone": "(0061) 497484475",
     "website": "https://www.linkedin.com/in/amiralijiwani/",
-    "summary": "A software enthusiast -- Developing software for human beings as a human for over a decade. I have got a chance to visit various domains and technologies during this time; The experience has shaped the way I think and work now. I like to create software and help other developers like me around. I have recently been interested in connecting the dots, making concepts available in layman's terms and helping bridge the gap between specialists (usually developers) and other stakeholders. I believe everyone attached to a concept should have a right to completely and concisely understand it, enabling them to contribute to the purpose. I have been working on recent technologies like NodeJS, React, Docker, Kubernetes, Electron, and others. My main focus is on problem-solving, irrespective of the platform usually. However, knowing platforms give me an edge over someone that might not.",
+    "summary": "Lead Engineer based in Melbourne with 15+ years building and modernising web platforms across marketplaces, travel, and SaaS. Recent focus on identity platforms, distributed systems, and cloud-native architectures (Node.js, TypeScript, React, AWS, Docker, Kubernetes). Experienced leading cross-functional teams, mentoring engineers, and shaping technical strategy with a focus on sustainable delivery and engineering effectiveness. Comfortable working with distributed teams across APAC and in remote/hybrid setups.",
     "location": {
       "address": "17 Ashbourne Boulevard, Donnybrook",
       "postalCode": "3064",
@@ -34,20 +34,16 @@
       "company": "SEEK",
       "location": "Melbourne, Australia",
       "description": "Matching candidates with hirers in a hassle free way",
-      "position": "Engineering Manager (Secondment)",
+      "position": "Lead Engineer",
       "url": "https://www.seek.com.au/",
-      "startDate": "2024-05-20",
-      "summary": "In absence of engineering manager for the team, be the guide to keep the team happy towards fulfilling organization goals",
+      "startDate": "2023-02-15",
+      "summary": "Lead Engineer in SEEK's online identity platform, guiding a team of engineers to build secure, reliable shared services used across SEEK products.",
       "highlights": [
-        "Think platform and place our team at the right spot with right sets of remits",
-        "Examplify stake-holder management",
-        "Help team form opinions about what good looks like and how to communicate it",
-        "Take lead in helping team form necessary OKRs to perform quarterly",
-        "Help team members technically around various initiatives",
-        "Care and work for the wellbeing of the team members",
-        "Help team members with their promotion cases alongside their pitch",
-        "Help product owners and team members bridge to form a roadmap view, ready to make us successful",
-        "Talk about matters around team health, team values and team progress; Not just transparency but how to improve each pillar"
+        "Led design and implementation of identity (Auth0) and profile services used across multiple SEEK products, partnering with Staff Engineer and EM on technical direction and priorities.",
+        "Re-architected legacy components into modern, observable services (Node.js, TypeScript, AWS, Docker, Kubernetes), improving reliability and maintainability.",
+        "Provided hands-on technical leadership through design reviews, pairing, and code contributions on complex initiatives.",
+        "Mentored junior and mid-level engineers on design, testing, and SEEK values/behaviours, raising the bar for technical quality.",
+        "Collaborated with cross-team stakeholders to clarify requirements, communicate trade-offs, and ensure platform solutions met shared needs."
       ]
     },
     {
@@ -55,21 +51,18 @@
       "company": "SEEK",
       "location": "Melbourne, Australia",
       "description": "Matching candidates with hirers in a hassle free way",
-      "position": "Lead Engineer",
+      "position": "Engineering Manager (Secondment)",
       "url": "https://www.seek.com.au/",
-      "startDate": "2023-02-15",
-      "summary": "Working with other platform teams and residing under the online identity space, leading a team of engineers to build the right tools engineered in a reasonable fashion",
+      "startDate": "2024-05-20",
+      "endDate": "2025-04-30",
+      "summary": "Acting Engineering Manager for an identity/platform team, providing people leadership, stakeholder alignment, and sustainable delivery while the permanent EM role is vacant.",
       "highlights": [
-        "Examplify being a senior team member; Available, willing to help and leading by example",
-        "Helping the journey of organization to fulfil the goal of unifying systems to the selected one",
-        "Architect various big and small pieces of the system wherever necessary. It involves rewriting several heavy-weight components to fit the need; sometimes, it may require a clean slate implementation of the parts of the system",
-        "Voice out an opinion that helps the team to think in the right direction",
-        "Partner with Staff engineer and Engineering manager to help steer team in the right focus area",
-        "Nourishing junior members with SEEK values and behaviors",
-        "Participate in conversations with various system stakeholders to achieve the best outcome possible",
-        "Articulate problems that are understandable and approachable by teams and stakeholders",
-        "Help multiple actors in the team to understand and get around the problem in layman terms",
-        "Propose architecture for various system needs, implement them, and vocalize them within multiple teams"
+        "Provided day-to-day leadership for a cross-functional team, keeping delivery on track while maintaining a sustainable pace and healthy team culture.",
+        "Shaped and aligned team remit and roadmap with platform strategy and stakeholder expectations across SEEK.",
+        "Drove definition and tracking of quarterly OKRs, helping engineers connect their work to business outcomes.",
+        "Coached engineers on growth, promotion cases, and technical decision-making through regular 1:1s and feedback.",
+        "Partnered with Product to refine roadmap, clarify trade-offs, and maintain transparency on progress and risks.",
+        "Facilitated ongoing conversations on team health, values, and ways of working, with a focus on continuous improvement."
       ]
     },
     {
@@ -312,12 +305,50 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Backend & Platform Engineering",
       "level": "Expert",
       "keywords": [
-        "HTML",
-        "Javascript"
+        "Node.js",
+        "TypeScript",
+        "REST APIs",
+        "Microservices",
+        "Event-driven architecture",
+        "Identity & access management",
+        "Auth0",
+        "AWS",
+        "Docker"
       ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Buildkite",
+        "Monitoring & observability"
+      ]
+    },
+    {
+      "name": "Leadership & People Management",
+      "level": "Advanced",
+      "keywords": [
+        "Engineering management",
+        "1:1s and coaching",
+        "Career development",
+        "Hiring & interviewing",
+        "Team health",
+        "Stakeholder management",
+        "OKRs",
+        "Agile delivery"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Expert",
+      "keywords": ["HTML", "JavaScript"]
     },
     {
       "name": "Software Architecture",
@@ -336,16 +367,16 @@
         "Sustainability",
         "Portability",
         "Scalability",
-        "Reasonability"
+        "Code Quality",
+        "Testing",
+        "Automation",
+        "Maintainability"
       ]
     },
     {
       "name": "Problem Solving",
       "level": "Advanced",
-      "keywords": [
-        "CompetitiveProgramming",
-        "Abstract"
-      ]
+      "keywords": ["CompetitiveProgramming", "Abstract"]
     },
     {
       "name": "Draft documentation",
@@ -387,11 +418,7 @@
   "interests": [
     {
       "name": "Home improvements & engineering",
-      "keywords": [
-        "Plumbing",
-        "Electric-appliances",
-        "Civil engineering"
-      ]
+      "keywords": ["Plumbing", "Electric-appliances", "Civil engineering"]
     },
     {
       "name": "Software based home solutions",
@@ -406,12 +433,7 @@
     },
     {
       "name": "Watching documentaries",
-      "keywords": [
-        "Idiocracy",
-        "Lord-of-the-rings",
-        "movies",
-        "documentaries"
-      ]
+      "keywords": ["Idiocracy", "Lord-of-the-rings", "movies", "documentaries"]
     }
   ],
   "references": [
@@ -564,6 +586,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2026-02-27T00:00:00"
   }
 }
